@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Mar  1 23:02:27 PST 2005
+CalUtil/cmt
+
+Removed Files:
+      Tag: v2r0p2
+	Makefile 
+Log Message:
+minor housekeeping, deleleted some obsolete documentation
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p2, operation: add
 Package: CalUtil
