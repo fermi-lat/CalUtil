@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: als  Thu Jan 16 13:43:02 PST 2003
+CalUtil/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+version v1r2p1
+
+apply Toby's requirements patch for includes
+
+    *
+------------------------------------------------------------
 User: chehtman  Tue Jan 14 16:39:54 PST 2003
 CalUtil/src
 
