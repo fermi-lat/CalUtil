@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: berrie  Fri Jun 18 00:52:39 PDT 2004
+CalUtil/src
+
+Modified Files:
+	LinearConvertAdc.cxx 
+Log Message:
+
+
+Fixed bug.
+    *
+------------------------------------------------------------
 User: davezac  Tue Apr 20 09:43:35 PDT 2004
 CalUtil/doc
 
