@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sat Nov 16 14:30:43 PST 2002
+CalUtil/CalUtil
+
+Added Files:
+	LinearConvertAdc.h IConvertAdc.h 
+Log Message:
+for ADC converter tool
+    *
+------------------------------------------------------------
 User: richard  Sat Nov 16 14:29:47 PST 2002
 CalUtil/CalUtil
 
