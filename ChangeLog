@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Aug 23 21:57:03 PDT 2004
+CalUtil/src
+
+Added Files:
+	CalCalibSvc.cxx CalCalibSvc.h TestAdcTool.cxx TestAdcTool.h 
+	TestEnergyTool.cxx TestEnergyTool.h TestPosTool.cxx 
+	TestPosTool.h 
+Log Message:
+Have added the CalCalibSvc and the 3 new CalResponseTools.
+this is v0.  no doxygen, not linux test, no test_app.  just getting something out for people to work with.
+
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Aug 23 21:57:02 PDT 2004
 CalUtil/CalUtil
 
