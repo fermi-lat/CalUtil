@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: fewtrell  Fri Aug 27 15:00:43 PDT 2004
+CalUtil/CalUtil
+
+Modified Files:
+	ICalAdcTool.h ICalEnergyTool.h ICalPosTool.h 
+Log Message:
+put LAC testing in ICalAdcTool
+changed around function defs a little.
+test_CalUtil now works on new stuff.
+
+
+    *
+------------------------------------------------------------
 User: fewtrell  Wed Aug 25 14:14:56 PDT 2004
 CalUtil/src/Dll
 
