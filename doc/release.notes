@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.10 2005/02/05 09:26:48 fewtrell Exp $	
+ $Id: release.notes,v 1.11 2005/02/05 11:23:09 fewtrell Exp $	
  * Package CalUtil
+ * v2r0p3     02-Mar-2005 ZF minor housekeeping, deleted some obsolete documentation.
  * v2r0p1     05-Feb-2005 ZF little fixes to get package in one peice & build w/out warning on Linux
  * v2r0       05-Feb-2005 ZF moved CalResponse to it's own package, removed convertADC (obsolete), added CalDefs
  * v1r4p4     17-Jan-2005 THB replace RootPolicy with direct ROOT use.

@@ -2,7 +2,7 @@
 // for the CAL.
 // 
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.4 2002/11/26 01:18:37 richard Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.5 2005/02/05 09:26:48 fewtrell Exp $
 //
 // Author: Richard Dubois
 
@@ -52,12 +52,6 @@ StatusCode  CalFailureModeSvc::queryInterface (const IID& riid, void **ppvIF) {
     else {
         return Service::queryInterface (riid, ppvIF);
     }
-}
-
-
-
-const IID&  CalFailureModeSvc::type () const {
-    return IID_ICalFailureModeSvc;
 }
 
 

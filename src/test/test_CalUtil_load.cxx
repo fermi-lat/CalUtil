@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil_load.cxx,v 1.1.1.1 2002/10/30 18:13:51 richard Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil_load.cxx,v 1.2 2005/02/05 09:26:48 fewtrell Exp $
 //====================================================================
 //
 //  Description: Implementation of <Package>_load routine.
