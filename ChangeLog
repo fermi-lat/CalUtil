@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Aug 24 16:31:13 PDT 2004
+CalUtil/src
+
+Modified Files:
+	TestEnergyTool.cxx 
+Log Message:
+updating doxygen for CalResponseTools/CalCalibSvc
+    *
+------------------------------------------------------------
 User: fewtrell  Tue Aug 24 16:26:14 PDT 2004
 CalUtil/src
 
