@@ -1,0 +1,110 @@
+------------------------------------------------------------
+User: richard  Wed Oct 30 10:13:51 PST 2002
+CalUtil
+
+Log Message:
+First import
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v1r0
+		
+I CalUtil/Visual
+I CalUtil/Win32Debug
+N CalUtil/.cvsignore
+N CalUtil/CalUtil/CalFailureModeSvc.h
+N CalUtil/CalUtil/ICalFailureModeSvc.h
+N CalUtil/cmt/cleanup.bat
+N CalUtil/cmt/NMake
+N CalUtil/cmt/requirements
+I CalUtil/cmt/requirements.bak
+N CalUtil/cmt/setup.bat
+N CalUtil/cmt/Makefile
+N CalUtil/cmt/.cvsignore
+N CalUtil/cmt/setup.csh
+N CalUtil/cmt/setup.sh
+N CalUtil/cmt/cleanup.csh
+N CalUtil/cmt/cleanup.sh
+N CalUtil/cmt/cmt_path.make
+N CalUtil/cmt/Linux-i686.make
+N CalUtil/cmt/constituents.make
+N CalUtil/cmt/setup.make
+N CalUtil/cmt/i386_linux24.make
+N CalUtil/cmt/uses.make
+N CalUtil/cmt/tags.make
+N CalUtil/doc/release.notes
+N CalUtil/doc/used_packages.html
+N CalUtil/doc/doxy-html/_cal_failure_mode_svc_8cxx-source.html
+N CalUtil/doc/doxy-html/_cal_failure_mode_svc_8cxx.html
+N CalUtil/doc/doxy-html/_cal_failure_mode_svc_8h-source.html
+N CalUtil/doc/doxy-html/_cal_failure_mode_svc_8h.html
+N CalUtil/doc/doxy-html/_cal_util__dll_8cxx-source.html
+N CalUtil/doc/doxy-html/_cal_util__dll_8cxx.html
+N CalUtil/doc/doxy-html/_cal_util__load_8cxx-source.html
+N CalUtil/doc/doxy-html/_cal_util__load_8cxx.html
+N CalUtil/doc/doxy-html/_i_cal_failure_mode_svc_8h-source.html
+N CalUtil/doc/doxy-html/_i_cal_failure_mode_svc_8h.html
+N CalUtil/doc/doxy-html/annotated.html
+N CalUtil/doc/doxy-html/class_cal_failure_mode_svc-members.html
+N CalUtil/doc/doxy-html/class_cal_failure_mode_svc.html
+N CalUtil/doc/doxy-html/class_cal_failure_mode_svc.png
+N CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc-members.html
+N CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc.html
+N CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc.png
+N CalUtil/doc/doxy-html/doxygen.css
+N CalUtil/doc/doxy-html/doxygen.png
+N CalUtil/doc/doxy-html/files.html
+N CalUtil/doc/doxy-html/ftv2blank.png
+N CalUtil/doc/doxy-html/ftv2doc.png
+N CalUtil/doc/doxy-html/ftv2folderclosed.png
+N CalUtil/doc/doxy-html/ftv2folderopen.png
+N CalUtil/doc/doxy-html/ftv2lastnode.png
+N CalUtil/doc/doxy-html/ftv2link.png
+N CalUtil/doc/doxy-html/ftv2mlastnode.png
+N CalUtil/doc/doxy-html/ftv2mnode.png
+N CalUtil/doc/doxy-html/ftv2node.png
+N CalUtil/doc/doxy-html/ftv2plastnode.png
+N CalUtil/doc/doxy-html/ftv2pnode.png
+N CalUtil/doc/doxy-html/ftv2vertline.png
+N CalUtil/doc/doxy-html/functions.html
+N CalUtil/doc/doxy-html/globals.html
+N CalUtil/doc/doxy-html/hierarchy.html
+N CalUtil/doc/doxy-html/index.html
+N CalUtil/doc/doxy-html/main.html
+N CalUtil/doc/doxy-html/mainpage_8h-source.html
+N CalUtil/doc/doxy-html/mainpage_8h.html
+N CalUtil/doc/doxy-html/release_8notes-source.html
+N CalUtil/doc/doxy-html/release_8notes.html
+N CalUtil/doc/doxy-html/tree.html
+N CalUtil/doc/doxy-html/tree.js
+N CalUtil/doc/doxy-html/treeview.js
+N CalUtil/src/CalFailureModeSvc.cxx
+N CalUtil/src/mainpage.h
+I CalUtil/src/mainpage.h~
+N CalUtil/src/Dll/CalUtil_dll.cxx
+N CalUtil/src/Dll/CalUtil_load.cxx
+N CalUtil/src/test/jobOptions.txt
+N CalUtil/src/test/test_CalUtil.cxx
+N CalUtil/src/test/test_CalUtil_load.cxx
+I CalUtil/src/test/jobOptions.txt~
+I CalUtil/src/test/test_CalUtil.cxx~
+N CalUtil/Linux-i686/CalUtil.make
+N CalUtil/Linux-i686/CalUtil_dependencies.make
+I CalUtil/Linux-i686/CalFailureModeSvc.o
+I CalUtil/Linux-i686/CalUtil_dll.o
+I CalUtil/Linux-i686/CalUtil_load.o
+I CalUtil/Linux-i686/libCalUtil.a
+N CalUtil/Linux-i686/CalUtil.stamp
+N CalUtil/Linux-i686/CalUtil.shstamp
+I CalUtil/Linux-i686/libCalUtil.so
+N CalUtil/Linux-i686/test_CalUtil.make
+N CalUtil/Linux-i686/test_CalUtil_dependencies.make
+I CalUtil/Linux-i686/test_CalUtil.o
+I CalUtil/Linux-i686/test_CalUtil_load.o
+I CalUtil/Linux-i686/GlastMain.o
+I CalUtil/Linux-i686/test_CalUtil.exe
+
+No conflicts created by this import
+
+    *
