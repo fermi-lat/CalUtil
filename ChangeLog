@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: als  Wed Oct 30 14:03:03 PST 2002
+CalUtil/Linux-i686
+
+Removed Files:
+	CalUtil.make CalUtil.shstamp CalUtil.stamp 
+	CalUtil_dependencies.make test_CalUtil.make 
+	test_CalUtil_dependencies.make 
+Log Message:
+cleanup unwanted directory
+
+    *
+------------------------------------------------------------
 User: richard  Wed Oct 30 10:13:51 PST 2002
 CalUtil
 
