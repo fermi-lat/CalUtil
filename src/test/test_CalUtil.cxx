@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.1.1.1 2002/10/30 18:13:51 richard Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.2 2002/11/16 23:01:40 richard Exp $
 
 // Include files
 // Gaudi system includes
@@ -80,19 +80,19 @@ StatusCode test_CalUtil::execute()
     idents::CalXtalId id3(3,5,3);
 
     if (m_FailSvc == 0) return StatusCode::FAILURE;
-    if (m_FailSvc->matchChannel(id1)) {
+    if (m_FailSvc->matchChannel(id1,idents::CalXtalId::NEG)) {
       log << MSG::INFO << "removed channel (10,3,2)" << endreq;
     } else {
       log << MSG::ERROR << "failed to remove channel (10,3,2)" << endreq;
       return StatusCode::FAILURE;
     }
-    if (m_FailSvc->matchChannel(id2)) {
+    if (m_FailSvc->matchChannel(id2,idents::CalXtalId::NEG)) {
       log << MSG::INFO << "removed channel (11,1,2)" << endreq;
     } else {
       log << MSG::ERROR << "failed to remove channel (11,1,2)" << endreq;
       return StatusCode::FAILURE;
     }
-    if (!m_FailSvc->matchChannel(id3)) {
+    if (!m_FailSvc->matchChannel(id3,idents::CalXtalId::NEG)) {
       log << MSG::INFO << "left channel (3,5,3)" << endreq;
     } else {
       log << MSG::ERROR << "erroneously removed channel (3,5,3)" << endreq;
