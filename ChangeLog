@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Mon Jan  3 16:08:35 PST 2005
+CalUtil/src
+
+Modified Files:
+	TestAdcTool.cxx 
+Log Message:
+Eliminate unnecessary #include "xml/IFile.h"  (IFile class no longer used)
+
+    *
+------------------------------------------------------------
 User: fewtrell  Fri Sep 24 13:26:08 PDT 2004
 CalUtil/src
 
