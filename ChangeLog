@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Thu Nov 21 15:36:20 PST 2002
+CalUtil/CalUtil
+
+Modified Files:
+	CalFailureModeSvc.h 
+Log Message:
+add cable controller to list of deadable things
+    *
+------------------------------------------------------------
 User: richard  Thu Nov 21 15:35:58 PST 2002
 CalUtil/src
 
