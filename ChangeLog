@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Mar 16 11:56:18 PST 2005
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx 
+Log Message:
+just some code beautification
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Mar 16 11:56:18 PST 2005
 CalUtil/cmt
 
 Removed Files:
