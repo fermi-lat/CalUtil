@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.3 2002/09/23 16:30:39 richard Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.1.1.1 2002/10/30 18:13:51 richard Exp $
 
 // Include files
 // Gaudi system includes
@@ -112,6 +112,3 @@ StatusCode test_CalUtil::finalize(){
     
     return sc;
 }
-
-
-
