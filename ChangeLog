@@ -1,4 +1,87 @@
 ------------------------------------------------------------
+TAG
+Tag name: v1r4p4, operation: add
+Package: CalUtil
+User: burnett  Mon Jan 17 15:43:09 2005
+Files:
+  CalUtil/.cvsignore  1.2
+  CalUtil/ChangeLog  1.65
+  CalUtil/CalUtil/ICalEnergyTool.h  1.4
+  CalUtil/CalUtil/CalFailureModeSvc.h  1.3
+  CalUtil/CalUtil/ICalAdcTool.h  1.4
+  CalUtil/CalUtil/ICalPosTool.h  1.4
+  CalUtil/CalUtil/ICalFailureModeSvc.h  1.2
+  CalUtil/CalUtil/ICalCalibSvc.h  1.3
+  CalUtil/CalUtil/LinearConvertAdc.h  1.3
+  CalUtil/CalUtil/IConvertAdc.h  1.4
+  CalUtil/cmt/.cvsignore  1.1.1.1
+  CalUtil/cmt/requirements  1.11
+  CalUtil/cmt/Makefile  1.1.1.1
+  CalUtil/doc/release.notes  1.9
+  CalUtil/doc/used_packages.html  1.2
+  CalUtil/doc/doxy-html/hierarchy.html  1.2
+  CalUtil/doc/doxy-html/ftv2mlastnode.png  1.2
+  CalUtil/doc/doxy-html/class_cal_failure_mode_svc.html  1.2
+  CalUtil/doc/doxy-html/_cal_util__load_8cxx.html  1.2
+  CalUtil/doc/doxy-html/ftv2pnode.png  1.2
+  CalUtil/doc/doxy-html/release_8notes-source.html  1.2
+  CalUtil/doc/doxy-html/treeview.js  1.1.1.1
+  CalUtil/doc/doxy-html/ftv2lastnode.png  1.2
+  CalUtil/doc/doxy-html/ftv2mnode.png  1.2
+  CalUtil/doc/doxy-html/index.html  1.2
+  CalUtil/doc/doxy-html/ftv2node.png  1.2
+  CalUtil/doc/doxy-html/ftv2folderclosed.png  1.2
+  CalUtil/doc/doxy-html/main.html  1.2
+  CalUtil/doc/doxy-html/class_cal_failure_mode_svc.png  1.1.1.1
+  CalUtil/doc/doxy-html/tree.js  1.1.1.1
+  CalUtil/doc/doxy-html/functions.html  1.2
+  CalUtil/doc/doxy-html/_cal_util__dll_8cxx-source.html  1.2
+  CalUtil/doc/doxy-html/doxygen.css  1.2
+  CalUtil/doc/doxy-html/ftv2link.png  1.2
+  CalUtil/doc/doxy-html/_i_cal_failure_mode_svc_8h.html  1.2
+  CalUtil/doc/doxy-html/ftv2folderopen.png  1.2
+  CalUtil/doc/doxy-html/_cal_util__load_8cxx-source.html  1.2
+  CalUtil/doc/doxy-html/_cal_failure_mode_svc_8cxx-source.html  1.2
+  CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc.html  1.2
+  CalUtil/doc/doxy-html/ftv2doc.png  1.2
+  CalUtil/doc/doxy-html/ftv2blank.png  1.2
+  CalUtil/doc/doxy-html/ftv2vertline.png  1.2
+  CalUtil/doc/doxy-html/release_8notes.html  1.2
+  CalUtil/doc/doxy-html/files.html  1.2
+  CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc.png  1.1.1.1
+  CalUtil/doc/doxy-html/class_cal_failure_mode_svc-members.html  1.2
+  CalUtil/doc/doxy-html/_i_cal_failure_mode_svc_8h-source.html  1.2
+  CalUtil/doc/doxy-html/tree.html  1.2
+  CalUtil/doc/doxy-html/_cal_failure_mode_svc_8h-source.html  1.2
+  CalUtil/doc/doxy-html/class_i_cal_failure_mode_svc-members.html  1.2
+  CalUtil/doc/doxy-html/annotated.html  1.2
+  CalUtil/doc/doxy-html/_cal_failure_mode_svc_8h.html  1.2
+  CalUtil/doc/doxy-html/_cal_failure_mode_svc_8cxx.html  1.2
+  CalUtil/doc/doxy-html/doxygen.png  1.2
+  CalUtil/doc/doxy-html/globals.html  1.2
+  CalUtil/doc/doxy-html/mainpage_8h.html  1.2
+  CalUtil/doc/doxy-html/ftv2plastnode.png  1.2
+  CalUtil/doc/doxy-html/mainpage_8h-source.html  1.2
+  CalUtil/doc/doxy-html/_cal_util__dll_8cxx.html  1.2
+  CalUtil/src/TestAdcTool.cxx  1.7
+  CalUtil/src/TestPosTool.h  1.3
+  CalUtil/src/TestPosTool.cxx  1.3
+  CalUtil/src/TestAdcTool.h  1.3
+  CalUtil/src/CalCalibSvc.h  1.3
+  CalUtil/src/CalCalibSvc.cxx  1.2
+  CalUtil/src/CalFailureModeSvc.cxx  1.4
+  CalUtil/src/TestEnergyTool.cxx  1.5
+  CalUtil/src/TestEnergyTool.h  1.4
+  CalUtil/src/mainpage.h  1.3
+  CalUtil/src/LinearConvertAdc.cxx  1.6
+  CalUtil/src/Dll/CalUtil_dll.cxx  1.1.1.1
+  CalUtil/src/Dll/CalUtil_load.cxx  1.4
+  CalUtil/src/test/jobOptions.txt  1.4
+  CalUtil/src/test/test_CalUtil.cxx  1.6
+  CalUtil/src/test/test_CalUtil_load.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: burnett  Mon Jan 17 15:42:20 PST 2005
 CalUtil/doc
 
