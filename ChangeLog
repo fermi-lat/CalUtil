@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sat Nov 16 14:29:08 PST 2002
+CalUtil/src
+
+Added Files:
+	LinearConvertAdc.cxx 
+Log Message:
+clone of original code to convert to ADC. First tool.
+    *
+------------------------------------------------------------
 User: richard  Sat Nov 16 14:28:28 PST 2002
 CalUtil/src
 
