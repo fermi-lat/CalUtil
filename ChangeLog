@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sat Nov 16 14:29:47 PST 2002
+CalUtil/CalUtil
+
+Modified Files:
+	ICalFailureModeSvc.h 
+Log Message:
+update to use AFEE board rather than layer
+    *
+------------------------------------------------------------
 User: richard  Sat Nov 16 14:29:34 PST 2002
 CalUtil/CalUtil
 
