@@ -1,9 +1,9 @@
 /** 
-* @file GlastDigi_load.cpp
+* @file CalUtil_load.cpp
 * @brief This is needed for forcing the linker to load all components
 * of the library.
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/Dll/CalUtil_load.cxx,v 1.2 2002/11/16 22:31:29 richard Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/Dll/CalUtil_load.cxx,v 1.3 2004/08/24 04:54:50 fewtrell Exp $
 */
 
 #include "GaudiKernel/DeclareFactoryEntries.h"
