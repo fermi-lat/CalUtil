@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Fri Sep 24 13:26:08 PDT 2004
+CalUtil/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+removed some >extraneous< noise calculations which either a: had zero effect or b: had an effect that we weren't looking for.
+makes algorithm a little closer to original CalDigi Algorithm.
+    *
+------------------------------------------------------------
 User: fewtrell  Fri Aug 27 15:11:11 PDT 2004
 CalUtil/doc
 
