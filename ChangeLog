@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Feb  7 16:42:31 PST 2005
+CalUtil
+
+Modified Files:
+	.cvsignore 
+Log Message:
+updated .cvsignore file
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r0p1, operation: add
 Package: CalUtil
