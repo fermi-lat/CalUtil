@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Tue Jan 14 16:39:03 PST 2003
+CalUtil/CalUtil
+
+Modified Files:
+	CalXtalCalib.h CalGainCalib.h CalCalibMap.h 
+Log Message:
+Fixed linux compilation error for repeting default values of function argument
+    *
+------------------------------------------------------------
 User: chehtman  Fri Jan 10 15:28:27 PST 2003
 CalUtil/src
 
