@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Aug 25 14:14:34 PDT 2004
+CalUtil/CalUtil
+
+Modified Files:
+	ICalAdcTool.h ICalCalibSvc.h ICalEnergyTool.h ICalPosTool.h 
+	IConvertAdc.h 
+Log Message:
+completed doxygen.  added volume check in TestAdcTool.
+TestPosTool returns 'relative to xtal' position, not in LAT units
+    *
+------------------------------------------------------------
 User: fewtrell  Tue Aug 24 16:31:13 PDT 2004
 CalUtil/src
 
