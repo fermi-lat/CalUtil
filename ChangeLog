@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Mar  1 23:02:27 PST 2005
+CalUtil/src/test
+
+Modified Files:
+	test_CalUtil_load.cxx 
+Log Message:
+minor housekeeping, deleleted some obsolete documentation
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Mar  1 23:02:27 PST 2005
 CalUtil/src/Dll
 
 Modified Files:
