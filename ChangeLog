@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Fri Jan 10 15:27:28 PST 2003
+CalUtil/CalUtil
+
+Added Files:
+	CalCalibMap.h CalGainCalib.h CalPedCalib.h CalXtalCalib.h 
+Log Message:
+Calibration classes moved to CalUtil package
+    *
+------------------------------------------------------------
 User: als  Thu Jan  9 17:23:00 PST 2003
 CalUtil/cmt
 
