@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Aug 25 14:14:56 PDT 2004
+CalUtil/src/Dll
+
+Modified Files:
+	CalUtil_load.cxx 
+Log Message:
+completed doxygen.  added volume check in TestAdcTool.
+TestPosTool returns 'relative to xtal' position, not in LAT units
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Aug 25 14:14:56 PDT 2004
 CalUtil/src
 
 Modified Files:
