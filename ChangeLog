@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Aug 23 21:57:02 PDT 2004
+CalUtil/CalUtil
+
+Added Files:
+	ICalAdcTool.h ICalCalibSvc.h ICalEnergyTool.h ICalPosTool.h 
+Log Message:
+Have added the CalCalibSvc and the 3 new CalResponseTools.
+this is v0.  no doxygen, not linux test, no test_app.  just getting something out for people to work with.
+
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Aug 23 21:54:50 PDT 2004
 CalUtil/src/Dll
 
