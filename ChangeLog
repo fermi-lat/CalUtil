@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Thu Apr  3 13:24:02 PST 2003
+CalUtil/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+calibration classes removed from CalUtil
+    *
+------------------------------------------------------------
 User: chehtman  Thu Apr  3 13:18:35 PST 2003
 CalUtil/src
 
