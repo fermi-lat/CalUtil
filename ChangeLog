@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Thu Apr  3 13:18:35 PST 2003
+CalUtil/src
+
+Removed Files:
+	CalCalib.cxx 
+Log Message:
+CalibSvc is used by CalRecon to get calibration data - old calibration classes aren't needed anymore
+    *
+------------------------------------------------------------
 User: chehtman  Thu Apr  3 13:16:50 PST 2003
 CalUtil/CalUtil
 
