@@ -1,5 +1,18 @@
 ------------------------------------------------------------
 User: fewtrell  Sat Feb  5 01:26:48 PST 2005
+CalUtil/src/Dll
+
+Modified Files:
+	CalUtil_load.cxx 
+Log Message:
+moving CalResponse to it's own package
+removed ConvertADC (obsolete)
+cleaned up requirements file
+took doxygen out of CVS (duh!)
+added CalDefs
+    *
+------------------------------------------------------------
+User: fewtrell  Sat Feb  5 01:26:48 PST 2005
 CalUtil/src
 
 Modified Files:
