@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: berrie  Fri Aug  6 06:31:33 PDT 2004
+CalUtil/src
+
+Modified Files:
+	LinearConvertAdc.cxx 
+Log Message:
+
+Modified CalUtil to reproduce v1r2p2 for the RespSvc development
+    *
+------------------------------------------------------------
+User: berrie  Fri Aug  6 06:31:33 PDT 2004
 CalUtil/doc
 
 Modified Files:
