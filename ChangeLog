@@ -1,4 +1,17 @@
 ------------------------------------------------------------
+User: davezac  Sun Mar 14 23:55:47 PST 2004
+CalUtil/CalUtil
+
+Modified Files:
+	IConvertAdc.h LinearConvertAdc.h 
+Log Message:
+Added CalibData objects to Linear(I)ConvertAdc: it now can use calibrated pedestals 
+and gains. CalibData objects are initiated by CalDigiAlg. LinearConvertAdc has a new 
+method 'calculateAdcAndNoise' that adds pedestal noise to signals then  
+(Previously done in CalDigi).  
+
+    *
+------------------------------------------------------------
 User: chehtman  Thu Apr  3 13:24:02 PST 2003
 CalUtil/doc
 
