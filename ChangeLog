@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: fewtrell  Sat Feb  5 01:39:51 PST 2005
+CalUtil/CalUtil
+
+Removed Files:
+	CalFailureModeSvc.h ICalAdcTool.h ICalCalibSvc.h 
+	ICalEnergyTool.h ICalPosTool.h IConvertAdc.h 
+	LinearConvertAdc.h 
+Log Message:
+removed convert adc & calresponse svc
+
+    *
+------------------------------------------------------------
 User: fewtrell  Sat Feb  5 01:26:48 PST 2005
 CalUtil/src/test
 
