@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Aug 24 08:24:27 PDT 2004
+CalUtil/src
+
+Modified Files:
+	TestAdcTool.cxx CalCalibSvc.h CalCalibSvc.cxx 
+Log Message:
+made some changes to help CalResponseSvc build w/out warning on linux.  fixed one small bug in range check portion of TestAdcTool.
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Aug 23 21:57:03 PDT 2004
 CalUtil/src
 
