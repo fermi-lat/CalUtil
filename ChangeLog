@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Sat Nov 16 14:28:28 PST 2002
+CalUtil/src
+
+Modified Files:
+	CalFailureModeSvc.cxx 
+Log Message:
+update to use AFEE board rather than layer
+    *
+------------------------------------------------------------
 User: burnett  Thu Oct 31 06:26:53 PST 2002
 CalUtil/cmt
 
