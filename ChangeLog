@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: richard  Mon Nov 25 17:18:37 PST 2002
+CalUtil/src
+
+Modified Files:
+	CalFailureModeSvc.cxx 
+Log Message:
+fix gcc 3.2-flagged compile error
+    *
+------------------------------------------------------------
 User: richard  Fri Nov 22 09:12:13 PST 2002
 CalUtil/src/test
 
