@@ -2,13 +2,12 @@
 // for the CAL.
 // 
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.3 2002/11/21 23:35:58 richard Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.4 2002/11/26 01:18:37 richard Exp $
 //
 // Author: Richard Dubois
 
 
-#include "CalUtil/CalFailureModeSvc.h"
-
+#include "CalFailureModeSvc.h"
 
 #include "GaudiKernel/MsgStream.h"
 #include "GaudiKernel/SvcFactory.h"

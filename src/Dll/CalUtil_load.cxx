@@ -3,7 +3,7 @@
 * @brief This is needed for forcing the linker to load all components
 * of the library.
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/Dll/CalUtil_load.cxx,v 1.3 2004/08/24 04:54:50 fewtrell Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/Dll/CalUtil_load.cxx,v 1.4 2004/08/25 21:14:56 fewtrell Exp $
 */
 
 #include "GaudiKernel/DeclareFactoryEntries.h"
@@ -16,10 +16,4 @@
 
 DECLARE_FACTORY_ENTRIES(CalUtil) {
     DECLARE_SERVICE( CalFailureModeSvc );
-    DLL_DECL_TOOL( LinearConvertAdc   );
-
-    DECLARE_SERVICE( CalCalibSvc );
-    DLL_DECL_TOOL( TestEnergyTool );
-    DLL_DECL_TOOL( TestAdcTool );
-    DLL_DECL_TOOL( TestPosTool );
 } 
