@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Thu Apr  3 13:16:50 PST 2003
+CalUtil/CalUtil
+
+Removed Files:
+	CalXtalCalib.h CalPedCalib.h CalGainCalib.h CalCalibMap.h 
+Log Message:
+CalibSvc is used by CalRecon to get calibration data - old calibration classes aren't needed anymore
+    *
+------------------------------------------------------------
 User: als  Thu Jan 16 13:43:02 PST 2003
 CalUtil/cmt
 
