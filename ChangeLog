@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Fri Aug 27 15:04:22 PDT 2004
+CalUtil/src/test
+
+Modified Files:
+	test_CalUtil.cxx 
+Log Message:
+insignificant changes to avoid warnings on gcc/linux.
+
+    *
+------------------------------------------------------------
 User: fewtrell  Fri Aug 27 15:00:43 PDT 2004
 CalUtil/src/test
 
