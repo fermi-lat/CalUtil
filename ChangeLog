@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: berrie  Fri Aug  6 06:31:33 PDT 2004
+CalUtil/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+
+Modified CalUtil to reproduce v1r2p2 for the RespSvc development
+    *
+------------------------------------------------------------
 User: berrie  Fri Aug  6 06:31:32 PDT 2004
 CalUtil/CalUtil
 
