@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Aug 25 14:14:56 PDT 2004
+CalUtil/src
+
+Modified Files:
+	CalCalibSvc.h TestAdcTool.cxx TestAdcTool.h TestEnergyTool.cxx 
+	TestEnergyTool.h TestPosTool.cxx TestPosTool.h 
+Log Message:
+completed doxygen.  added volume check in TestAdcTool.
+TestPosTool returns 'relative to xtal' position, not in LAT units
+    *
+------------------------------------------------------------
 User: fewtrell  Wed Aug 25 14:14:34 PDT 2004
 CalUtil/CalUtil
 
