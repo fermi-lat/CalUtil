@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.9 2005/01/17 23:42:20 burnett Exp $	
+ $Id: release.notes,v 1.10 2005/02/05 09:26:48 fewtrell Exp $	
  * Package CalUtil
+ * v2r0p1     05-Feb-2005 ZF little fixes to get package in one peice & build w/out warning on Linux
  * v2r0       05-Feb-2005 ZF moved CalResponse to it's own package, removed convertADC (obsolete), added CalDefs
  * v1r4p4     17-Jan-2005 THB replace RootPolicy with direct ROOT use.
  * v1r4p3      3-Jan-2005 jrb Eliminate unnecessary #include in TestAdcTools.cxx
