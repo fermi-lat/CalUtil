@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Fri Jan 10 15:28:27 PST 2003
+CalUtil/src
+
+Added Files:
+	CalCalib.cxx 
+Log Message:
+Calibration classes moved to CalUtil package
+    *
+------------------------------------------------------------
 User: chehtman  Fri Jan 10 15:27:28 PST 2003
 CalUtil/CalUtil
 
