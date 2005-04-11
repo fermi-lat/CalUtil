@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Apr 11 08:06:05 PDT 2005
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+support multi towers in CalDefs
+    *
+------------------------------------------------------------
 User: fewtrell  Fri Apr  8 18:42:32 PDT 2005
 CalUtil/doc
 
