@@ -1,22 +1,4 @@
 ------------------------------------------------------------
-User: fewtrell  Mon Jun 13 15:33:49 PDT 2005
-CalUtil/src
-
-Modified Files:
-	CalDefs.cxx 
-Log Message:
-getRow() && getCol() methods added to TwrNum class
-    *
-------------------------------------------------------------
-User: fewtrell  Mon Jun 13 15:33:49 PDT 2005
-CalUtil/CalUtil
-
-Modified Files:
-	CalDefs.h 
-Log Message:
-getRow() && getCol() methods added to TwrNum class
-    *
-------------------------------------------------------------
 TAG
 Tag name: v2r1, operation: add
 Package: CalUtil
