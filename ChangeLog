@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Dec  7 14:23:51 PST 2005
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+removed warnings in linux compile
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v2r2, operation: add
 Package: CalUtil
