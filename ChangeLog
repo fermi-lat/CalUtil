@@ -1,4 +1,18 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Dec  7 09:02:25 PST 2005
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h ICalFailureModeSvc.h 
+Added Files:
+	CalArray.h CalVec.h 
+Log Message:
+new system test.
+new CalArray class
+broke CalVec.h off of CalDefs.h
+
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Jun 13 15:44:18 PDT 2005
 CalUtil/doc
 
