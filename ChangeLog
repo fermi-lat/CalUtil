@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Dec  7 19:04:19 PST 2005
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+added some comparison operators
+
+    *
+------------------------------------------------------------
 User: fewtrell  Wed Dec  7 15:18:39 PST 2005
 CalUtil/CalUtil
 
