@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.15 2005/06/13 22:44:18 fewtrell Exp $	
+ $Id: release.notes,v 1.16 2005/12/07 17:02:25 fewtrell Exp $	
  * Package CalUtil
+ * v2r2p1      7-Dec-2005 ZF few tweaks after building & testing on linux
  * v2r2        7-Dec-2005 ZF new system test.  new CalArray.h. broke CalVec.h off of CalDefs.h
  * v2r1p1     14-Jun-2005 ZF getCol() & getRow() added to TwrNum class
  * v2r1       08-Apr-2005 ZF now support multi-tower
