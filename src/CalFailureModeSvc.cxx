@@ -2,7 +2,7 @@
 // for the CAL.
 // 
 //
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.5 2005/02/05 09:26:48 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalFailureModeSvc.cxx,v 1.6 2005/03/02 07:02:27 fewtrell Exp $
 //
 // Author: Richard Dubois
 
@@ -42,7 +42,7 @@ CalFailureModeSvc::CalFailureModeSvc(const std::string& name,ISvcLocator* svc) :
 
 
 
-StatusCode  CalFailureModeSvc::queryInterface (const IID& riid, void **ppvIF) {
+StatusCode  CalFailureModeSvc::queryInterface (const InterfaceID& riid, void **ppvIF) {
 	
 	
     if (IID_ICalFailureModeSvc == riid) {
