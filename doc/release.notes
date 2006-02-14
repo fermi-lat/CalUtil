@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.13 2005/03/17 07:05:52 fewtrell Exp $	
+ $Id: release.notes,v 1.14 2005/04/09 01:42:32 fewtrell Exp $	
  * Package CalUtil
+ * v2r1cl0    14-Feb-2006 TU Branch tag for new Gaudi/G4/etc.
  * v2r1       08-Apr-2005 ZF now support multi-tower
  * v2r0p4     17-Mar-2005 ZF code beautification while updating other pkgs
  * v2r0p3     02-Mar-2005 ZF minor housekeeping, deleted some obsolete documentation.
