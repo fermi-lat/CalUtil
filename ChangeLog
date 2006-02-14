@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+TAG
+Tag name: v2r1cl0, operation: add
+Package: CalUtil
+User: usher  Tue Feb 14 10:43:00 2006
+Files:
+  CalUtil/.cvsignore  1.3
+  CalUtil/ChangeLog  1.101
+  CalUtil/CalUtil/ICalFailureModeSvc.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.5
+  CalUtil/cmt/.cvsignore  1.1.1.1
+  CalUtil/cmt/requirements  1.13
+  CalUtil/doc/release.notes  1.14.2.1
+  CalUtil/doc/used_packages.html  1.2
+  CalUtil/src/CalFailureModeSvc.h  1.2.2.1
+  CalUtil/src/mainpage.h  1.4
+  CalUtil/src/CalDefs.cxx  1.5
+  CalUtil/src/CalFailureModeSvc.cxx  1.6.2.1
+  CalUtil/src/Dll/CalUtil_dll.cxx  1.2
+  CalUtil/src/Dll/CalUtil_load.cxx  1.5
+  CalUtil/src/test/jobOptions.txt  1.5
+  CalUtil/src/test/test_CalUtil.cxx  1.8
+  CalUtil/src/test/test_CalUtil_load.cxx  1.3
+
+    *
+------------------------------------------------------------
 User: usher  Tue Feb 14 10:42:37 PST 2006
 CalUtil/src
 
