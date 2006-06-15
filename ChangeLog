@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: fewtrell  Thu Jun 15 13:40:32 PDT 2006
+CalUtil/doc
+
+Modified Files:
+	release.notes 
+Removed Files:
+	used_packages.html 
+Log Message:
+- Moved CalFailureModeSvc to CalXtalResponse
+- CalUtil is now non-Gaudi pkg, shared by non-gaudi & gaudi based cal packages alike.
+    *
+------------------------------------------------------------
+User: fewtrell  Thu Jun 15 13:40:32 PDT 2006
 CalUtil/cmt
 
 Modified Files:
