@@ -1,6 +1,6 @@
 package CalUtil
 
-# $Id: requirements,v 1.13 2005/02/05 11:23:02 fewtrell Exp $
+# $Id: requirements,v 1.14 2006/06/15 20:40:32 fewtrell Exp $
 branches src cmt doc
 
 use GlastPolicy    
@@ -8,10 +8,10 @@ use idents
 
 apply_pattern package_include
 apply_pattern package_headers
-
-private
+apply_pattern package_linkopts
 
 library CalUtil *.cxx ${CalUtil_headers}
 
+private
 application test_CalUtil test/test_CalUtil.cxx
 
