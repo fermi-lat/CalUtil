@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Feb 27 12:41:33 PST 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+added toStr() methods for many CalDef objects.
+CalUtil now actually requires a real working library file (before was just headers), so requirements had to be fixed.
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r0, operation: add
 Package: CalUtil
