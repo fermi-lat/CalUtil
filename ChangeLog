@@ -1,4 +1,25 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r1, operation: add
+Package: CalUtil
+User: fewtrell  Thu Mar  8 11:47:07 2007
+Files:
+  CalUtil/.cvsignore  1.3
+  CalUtil/ChangeLog  1.144
+  CalUtil/CalUtil/CalArray.h  1.2
+  CalUtil/CalUtil/CalVec.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.13
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.16
+  CalUtil/doc/release.notes  1.20
+  CalUtil/src/mainpage.h  1.6
+  CalUtil/src/CalDefs.cxx  1.10
+  CalUtil/src/Dll/CalUtil_dll.cxx  1.2
+  CalUtil/src/Dll/CalUtil_load.cxx  1.6
+  CalUtil/src/test/test_CalUtil.cxx  1.12
+
+    *
+------------------------------------------------------------
 User: fewtrell  Thu Mar  8 11:46:53 PST 2007
 CalUtil/doc
 
