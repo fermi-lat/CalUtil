@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Thu Mar 22 15:23:39 PDT 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+added explicit setVal() method to DiodeIdx class
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r1, operation: add
 Package: CalUtil
