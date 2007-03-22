@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.19 2006/06/15 20:40:32 fewtrell Exp $	
+ $Id: release.notes,v 1.20 2007/03/08 19:46:53 fewtrell Exp $	
  * Package CalUtil
+ * v3r2       22-Mar-2007 ZF Added simple setVal() method for DiodeIdx class
  * v3r1        8-Mar-2007 ZF Added getTHX() method for RngNum class.
                              Added print type methods for many CaDefs classes
                              Fixed library code in requirements required now that all code is not in header file.
