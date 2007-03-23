@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Fri Mar 23 10:35:30 PDT 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h CalVec.h 
+Log Message:
+added getDiodeIdx() method to RngIdx class
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r2, operation: add
 Package: CalUtil
