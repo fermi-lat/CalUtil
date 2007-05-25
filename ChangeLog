@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Fri May 25 15:11:38 PDT 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+removed some explicit constructors so as not to break interface w/ dependent packages
+    *
+------------------------------------------------------------
 User: fewtrell  Fri May 25 14:08:14 PDT 2007
 CalUtil/src/test
 
