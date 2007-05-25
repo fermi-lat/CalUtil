@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: fewtrell  Fri May 25 14:08:14 PDT 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h CalVec.h 
+Log Message:
+made some constructors explicit
+removed some automatic cast operators
+added 'const' qualifier in many places
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r3, operation: add
 Package: CalUtil
