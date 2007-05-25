@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 User: fewtrell  Fri May 25 14:08:14 PDT 2007
+CalUtil/src/test
+
+Modified Files:
+	test_CalUtil.cxx 
+Log Message:
+made some constructors explicit
+removed some automatic cast operators
+added 'const' qualifier in many places
+
+    *
+------------------------------------------------------------
+User: fewtrell  Fri May 25 14:08:14 PDT 2007
 CalUtil/CalUtil
 
 Modified Files:
