@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Thu Jun  7 10:28:04 PDT 2007
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx 
+Log Message:
+added constructors & converters to string for some CalDefs classes
+    *
+------------------------------------------------------------
 User: fewtrell  Thu Jun  7 10:28:03 PDT 2007
 CalUtil/CalUtil
 
