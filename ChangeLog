@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Jun 12 10:41:40 PDT 2007
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx 
+Log Message:
+added stream operators to CalDef objects
+    *
+------------------------------------------------------------
 User: fewtrell  Tue Jun 12 10:41:39 PDT 2007
 CalUtil/CalUtil
 
