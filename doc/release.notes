@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.22 2007/03/23 17:56:41 fewtrell Exp $	
+ $Id: release.notes,v 1.23 2007/10/02 19:03:59 fewtrell Exp $	
  * Package CalUtil
+ * v3r5       05-Oct-2007 ZF took out fill() and find() methods (STL provided methods will work fine)
  * v3r4       02-Oct-2007 ZF made some constructors explicit, reduce some cast operators (was causing bugs)
                              added 'const' qualifier in many places - shouldn't affect outside code. 
                              added toStr() methods for many classes
