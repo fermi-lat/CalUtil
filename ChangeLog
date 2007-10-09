@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Oct  9 11:56:24 PDT 2007
+CalUtil/CalUtil
+
+Modified Files:
+	CalArray.h CalDefs.h CalVec.h 
+Added Files:
+	CalGeom.h 
+Log Message:
+added CalGeom utility
+    *
+------------------------------------------------------------
 User: fewtrell  Fri Oct  5 14:05:48 PDT 2007
 CalUtil/src/test
 
