@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.13 2007/05/25 21:08:14 fewtrell Exp $
+// $Header:$
 #ifndef CalArray_h
 #define CalArray_h
 
