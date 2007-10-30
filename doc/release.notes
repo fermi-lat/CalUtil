@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.24 2007/10/05 21:05:48 fewtrell Exp $	
+ $Id: release.notes,v 1.25 2007/10/09 18:57:37 fewtrell Exp $	
  * Package CalUtil
+ * v3r6       30-Oct-2007 HMK use gr_app
  * v3r5p1     09-Oct-2007 ZF added CalGeom utility
  * v3r5       05-Oct-2007 ZF took out fill() and find() methods (STL provided methods will work fine)
  * v3r4       02-Oct-2007 ZF made some constructors explicit, reduce some cast operators (was causing bugs)
