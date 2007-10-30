@@ -1,6 +1,6 @@
 package CalUtil
 
-# $Id: requirements,v 1.18 2007/10/09 18:56:24 fewtrell Exp $
+# $Id: requirements,v 1.19 2007/10/30 02:52:49 heather Exp $
 branches src cmt doc
 
 use GlastPolicy    
@@ -17,6 +17,6 @@ apply_pattern shared_library
 library CalUtil *.cxx ${CalUtil_headers}
 
 private
-ues gr_app
+use gr_app
 
 application test_CalUtil test/test_CalUtil.cxx
