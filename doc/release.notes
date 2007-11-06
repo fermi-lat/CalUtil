@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.26 2007/10/30 02:52:49 heather Exp $	
+ $Id: release.notes,v 1.27 2007/10/31 18:01:25 heather Exp $	
  * Package CalUtil
+ * v3r6p2     06-Nov-2007 ZF added explicit CalArray constructor with default initialization value parameter
  * v3r6p1     31-Oct-2007 ZF  correct spelling of use!
  * v3r6       30-Oct-2007 HMK use gr_app
  * v3r5p1     09-Oct-2007 ZF added CalGeom utility

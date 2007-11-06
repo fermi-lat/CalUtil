@@ -1,4 +1,4 @@
-// $Header:$
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalVec.h,v 1.6 2007/10/09 18:56:23 fewtrell Exp $
 #ifndef CalVec_h
 #define CalVec_h
 

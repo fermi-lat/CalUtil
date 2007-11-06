@@ -1,4 +1,4 @@
-// $Header:$
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalArray.h,v 1.4 2007/10/09 18:56:23 fewtrell Exp $
 #ifndef CalArray_h
 #define CalArray_h
 
@@ -10,6 +10,7 @@
 // EXTLIB INCLUDES
 
 // STD INCLUDES
+#include <algorithm>
 
 namespace CalUtil {
   /** \brief Standard C array wrapper restricts array indexing to specified type.
@@ -23,14 +24,22 @@ namespace CalUtil {
   \note initial size of array is idx_type::N_VALS
   \note initial array values are unitialized.
 
-  
-
   \param idx_type array index type.
   \param val_type array value type.
   */
   template <typename idx_type, typename val_type >
   class CalArray {
   public:
+    typedef val_type & reference;
+    typedef const val_type & const_reference;
+
+    CalArray() {};
+
+    /// initialize all array values to initialValue
+    explicit CalArray(const val_type &initialValue) {
+      std::fill(begin(),end(),initialValue);
+    }
+
     val_type& operator[](const idx_type &idx) {
       return m_dat[idx.val()];}
 
