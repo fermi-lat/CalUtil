@@ -1,6 +1,6 @@
-// $Header:$
 #ifndef CalDefs_H
 #define CalDefs_H
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.21 2007/10/09 18:56:23 fewtrell Exp $
 
 // LOCAL
 

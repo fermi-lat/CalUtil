@@ -1,4 +1,4 @@
-//    $Header: /nfs/slac/g/glast/ground/cvs/CalXtalResponse/src/XtalDigi/XtalDigiTool.cxx,v 1.16 2007/08/24 16:26:21 heather Exp $
+//    $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalGeom.h,v 1.1 2007/10/09 18:56:23 fewtrell Exp $
 #ifndef CalGeom_h
 #define CalGeom_h
 
