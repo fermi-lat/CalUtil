@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Nov  6 12:50:56 PST 2007
+CalUtil/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+added new CalArray constructor
+
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Nov  6 12:50:56 PST 2007
 CalUtil/CalUtil
 
 Modified Files:
