@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Nov  6 13:10:44 PST 2007
+CalUtil/CalUtil
+
+Added Files:
+	stl_util.h 
+Log Message:
+added stl_util.h header
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r6p2, operation: add
 Package: CalUtil
