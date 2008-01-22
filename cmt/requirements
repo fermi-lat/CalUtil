@@ -1,12 +1,13 @@
 package CalUtil
 
-# $Id: requirements,v 1.19 2007/10/30 02:52:49 heather Exp $
+# $Id: requirements,v 1.20 2007/10/30 21:08:21 fewtrell Exp $
 branches src cmt doc
 
 use GlastPolicy    
 use idents
 use GlastSvc
 use xmlUtil
+use ROOT * IExternal
 
 apply_pattern package_include
 apply_pattern package_headers
@@ -14,7 +15,8 @@ apply_pattern package_linkopts
 
 apply_pattern shared_library
 
-library CalUtil *.cxx ${CalUtil_headers}
+library CalUtil *.cxx ${CalUtil_headers} \
+        ../CalUtil/SimpleCalCalib/*.h SimpleCalCalib/*.cxx
 
 private
 use gr_app

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.13 2007/05/25 21:08:14 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/test/test_CalUtil.cxx,v 1.14 2007/10/05 21:05:48 fewtrell Exp $
 
 /** @file 
     @author Zach Fewtrell
@@ -33,8 +33,6 @@ bool testCalVec(){
   // enought to test functionality
   CalVec<XtalRng, unsigned> testVec;
 
-  testVec.resize(XtalRng::N_VALS);
-  
   if (testVec.size() != (unsigned)XtalRng::N_VALS)
     return false;
 
