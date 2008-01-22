@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Jan 22 11:58:38 PST 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h CalGeom.h CalVec.h stl_util.h 
+Log Message:
+annexed calibGenCAL/calibDataTypes  classes
+
+    *
+------------------------------------------------------------
 User: fewtrell  Wed Jan 16 13:18:35 PST 2008
 CalUtil/CalUtil/SimpleCalCalib
 
