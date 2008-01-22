@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Jan 22 12:12:08 PST 2008
+CalUtil/CalUtil/SimpleCalCalib
+
+Added Files:
+	CIDAC2ADC.h CalAsym.h CalMPD.h CalPed.h NeighborXtalk.h 
+	SplineUtil.h TholdCI.h 
+Log Message:
+annex SimpleCalCalib from calibGenCAL/CalibDataTypes
+
+    *
+------------------------------------------------------------
 User: fewtrell  Tue Jan 22 12:06:35 PST 2008
 CalUtil/src/SimpleCalCalib
 
