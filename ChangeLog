@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Jan 22 11:58:38 PST 2008
+CalUtil/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+annexed calibGenCAL/calibDataTypes  classes
+
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Jan 22 11:58:38 PST 2008
 CalUtil/CalUtil
 
 Modified Files:
