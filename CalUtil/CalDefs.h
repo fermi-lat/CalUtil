@@ -1,6 +1,6 @@
 #ifndef CalDefs_H
 #define CalDefs_H
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.21 2007/10/09 18:56:23 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.22 2007/11/06 20:50:55 fewtrell Exp $
 
 // LOCAL
 
@@ -692,6 +692,11 @@ namespace CalUtil {
     
     XtalIdx(const TwrNum twr, const LyrNum lyr, const ColNum col) :
       LATWideIndex(calc(twr,lyr,col)) {}
+
+    XtalIdx(const TwrNum twr,
+		const tXtalIdx twrXtalIdx) :
+	LATWideIndex(calc(twr,twrXtalIdx.getLyr(), twrXtalIdx.getCol())) {}
+		    
     
     XtalIdx() : LATWideIndex() {}
 

@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.28 2007/11/06 20:50:56 fewtrell Exp $	
+ $Id: release.notes,v 1.29 2007/11/06 21:10:44 fewtrell Exp $	
  * Package CalUtil
+ * v3r8       17-Jan-2007 ZF annexed calibGenCAL/calibDataTypes  classes (renamed to CalUtil/SimpleCalCalib) as they will now be shared by calibGenCAL and CalXtalResponse
  * v3r7       06-Nov-2007 ZF added stl_util.h header
  * v3r6p2     06-Nov-2007 ZF added explicit CalArray constructor with default initialization value parameter
  * v3r6p1     31-Oct-2007 ZF  correct spelling of use!
