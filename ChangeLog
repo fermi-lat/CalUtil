@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: makeev  Tue Feb  5 14:32:23 PST 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CIDAC2ADC.cxx CalAsym.cxx CalMPD.cxx CalPed.cxx 
+Log Message:
+modified column label text format
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r8, operation: add
 Package: CalUtil
