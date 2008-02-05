@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/CalPed.cxx,v 1.4 2007/06/13 22:42:12 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalPed.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -31,7 +31,7 @@ namespace CalUtil {
     ofstream outfile(filename.c_str());
 
     // output header info as comment
-    outfile << "; twr lyr col face rng ped sigma" << endl;
+    outfile << ";twr lyr col face rng ped sigma" << endl;
 
     if (!outfile.is_open())
       throw runtime_error(string("Unable to open " + filename));

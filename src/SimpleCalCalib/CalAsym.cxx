@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/CalAsym.cxx,v 1.5 2007/10/09 20:38:45 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalAsym.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -31,7 +31,7 @@ namespace CalUtil {
       throw runtime_error(string("Unable to open " + filename));
 
     // output header info as comment
-    outfile << "; twr lyr col pos_diode neg_diode asym error" << endl;
+    outfile << ";twr lyr col pos_diode neg_diode asym error" << endl;
 
     // PER XTAL LOOP
     for (XtalIdx xtalIdx; xtalIdx.isValid(); xtalIdx++) {
