@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/CIDAC2ADC.cxx,v 1.3 2007/05/25 21:06:47 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -56,7 +56,7 @@ namespace CalUtil {
     }
 
     // output header info as comment
-    outfile << "; twr lyr col face rng dac adc" << endl;
+    outfile << ";twr lyr col face rng dac adc" << endl;
 
     outfile.precision(2);
     outfile.setf(ios_base::fixed);

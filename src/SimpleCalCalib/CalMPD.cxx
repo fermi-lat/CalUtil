@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/CalMPD.cxx,v 1.4 2007/10/05 21:07:19 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalMPD.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -35,7 +35,7 @@ namespace CalUtil {
       throw runtime_error(string("Unable to open " + filename));
 
     // output header info as comment
-    outfile << "; twr lyr col diode mpd error" << endl;
+    outfile << ";twr lyr col diode mpd error" << endl;
 
     // PER XTAL LOOP
     for (XtalIdx xtalIdx; xtalIdx.isValid(); xtalIdx++)
