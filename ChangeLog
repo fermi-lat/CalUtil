@@ -1,4 +1,41 @@
 ------------------------------------------------------------
+TAG
+Tag name: v3r9, operation: add
+Package: CalUtil
+User: makeev  Tue Feb 19 12:33:55 2008
+Files:
+  CalUtil/.cvsignore  1.3
+  CalUtil/ChangeLog  1.196
+  CalUtil/CalUtil/CalGeom.h  1.3
+  CalUtil/CalUtil/CalConfig.h  1.1
+  CalUtil/CalUtil/CalArray.h  1.5
+  CalUtil/CalUtil/CalVec.h  1.8
+  CalUtil/CalUtil/CalDefs.h  1.23
+  CalUtil/CalUtil/stl_util.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalMPD.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalPed.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalAsym.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/TholdCI.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/NeighborXtalk.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/SplineUtil.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h  1.1
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.21
+  CalUtil/doc/release.notes  1.31
+  CalUtil/src/mainpage.h  1.9
+  CalUtil/src/CalGeom.cxx  1.1
+  CalUtil/src/CalDefs.cxx  1.13
+  CalUtil/src/SimpleCalCalib/CalPed.cxx  1.2
+  CalUtil/src/SimpleCalCalib/SplineUtil.cxx  1.1
+  CalUtil/src/SimpleCalCalib/CalAsym.cxx  1.2
+  CalUtil/src/SimpleCalCalib/CalMPD.cxx  1.2
+  CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx  1.2
+  CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx  1.1
+  CalUtil/src/SimpleCalCalib/TholdCI.cxx  1.1
+  CalUtil/src/test/test_CalUtil.cxx  1.15
+
+    *
+------------------------------------------------------------
 User: makeev  Tue Feb 19 12:32:35 PST 2008
 CalUtil/doc
 
