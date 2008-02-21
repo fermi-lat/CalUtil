@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: makeev  Thu Feb 21 08:15:03 PST 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalConfig.h 
+Log Message:
+made a minor change to CalConfig emuneration
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-09-00, operation: add
 Package: CalUtil
