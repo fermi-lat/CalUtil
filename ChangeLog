@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Feb 27 12:11:47 PST 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Added Files:
+	CalDiagnosticWord.h bit_util.h 
+Log Message:
+added support for CalDiagnosticData
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-09-01, operation: add
 Package: CalUtil
