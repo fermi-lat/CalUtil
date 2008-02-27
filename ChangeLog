@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Feb 27 12:11:47 PST 2008
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx CalGeom.cxx 
+Added Files:
+	CalDiagnosticWord.cxx 
+Log Message:
+added support for CalDiagnosticData
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Feb 27 12:11:47 PST 2008
 CalUtil/doc
 
 Modified Files:
