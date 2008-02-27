@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Feb 27 12:11:47 PST 2008
+CalUtil/doc
+
+Modified Files:
+	release.notes 
+Log Message:
+added support for CalDiagnosticData
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Feb 27 12:11:47 PST 2008
 CalUtil/CalUtil
 
 Modified Files:
