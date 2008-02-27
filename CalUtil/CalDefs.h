@@ -1,6 +1,6 @@
 #ifndef CalDefs_H
 #define CalDefs_H
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.22 2007/11/06 20:50:55 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.23 2008/01/22 19:58:37 fewtrell Exp $
 
 // LOCAL
 
@@ -652,7 +652,7 @@ namespace CalUtil {
     unsigned m_data;
   };
   
-  /// index class for all Cal crystals in GLAST LAT
+  /// index class for all Cal layers in GLAST LAT
   class LyrIdx : public LATWideIndex {
   public:
     explicit LyrIdx(const idents::CalXtalId &xtalId) :

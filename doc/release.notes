@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.31 2008/02/19 20:32:35 makeev Exp $	
+ $Id: release.notes,v 1.32 2008/02/21 16:15:15 makeev Exp $	
  * Package CalUtil
+ * v3r10      27-Feb-2008 ZGF added support routines for CalDiagnosticData
  * v3r9p1     21-Feb-2008 AVM made slight notation changes to CalConfig enumeration
  * v3r9       19-Feb-2008 AVM added CalFirstRng enumeration for specifying first range readout option in CalDigi
  * v3r8       17-Jan-2008 ZF annexed calibGenCAL/calibDataTypes  classes (renamed to CalUtil/SimpleCalCalib) as they will now be shared by calibGenCAL and CalXtalResponse
