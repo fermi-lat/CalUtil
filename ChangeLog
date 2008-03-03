@@ -1,5 +1,45 @@
 ------------------------------------------------------------
 TAG
+Tag name: CalUtil-03-11-00, operation: add
+Package: CalUtil
+User: glastrm  Mon Mar  3 08:30:19 2008
+Files:
+  CalUtil/.cvsignore  1.3
+  CalUtil/ChangeLog  1.214
+  CalUtil/CalUtil/CalGeom.h  1.3
+  CalUtil/CalUtil/CalConfig.h  1.2
+  CalUtil/CalUtil/CalArray.h  1.5
+  CalUtil/CalUtil/bit_util.h  1.1
+  CalUtil/CalUtil/CalVec.h  1.8
+  CalUtil/CalUtil/CalDiagnosticWord.h  1.1
+  CalUtil/CalUtil/CalDefs.h  1.25
+  CalUtil/CalUtil/stl_util.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalMPD.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalPed.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalAsym.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/TholdCI.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/NeighborXtalk.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/SplineUtil.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h  1.1
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.21
+  CalUtil/doc/release.notes  1.34
+  CalUtil/src/mainpage.h  1.9
+  CalUtil/src/CalGeom.cxx  1.2
+  CalUtil/src/CalDefs.cxx  1.15
+  CalUtil/src/CalDiagnosticWord.cxx  1.1
+  CalUtil/src/SimpleCalCalib/CalPed.cxx  1.2
+  CalUtil/src/SimpleCalCalib/SplineUtil.cxx  1.1
+  CalUtil/src/SimpleCalCalib/CalAsym.cxx  1.2
+  CalUtil/src/SimpleCalCalib/CalMPD.cxx  1.2
+  CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx  1.2
+  CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx  1.1
+  CalUtil/src/SimpleCalCalib/TholdCI.cxx  1.1
+  CalUtil/src/test/test_CalUtil.cxx  1.17
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v3r11, operation: add
 Package: CalUtil
 User: fewtrell  Mon Mar  3 08:28:49 2008
