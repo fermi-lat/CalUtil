@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Mar  3 08:26:49 PST 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+added GTEM,GCCC,GCRC,GCFE indexes to CalDefs
+CalDefs unit test is now quite comprehensive.
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-10-00, operation: add
 Package: CalUtil
