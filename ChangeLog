@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Apr 21 13:10:31 PDT 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h CalDiagnosticWord.h bit_util.h 
+Log Message:
+CalDefs - forced to make some constructors expclicity, I believe I chased down all the side effects for this
+CalDiagnosticWord - added constructor from bitfields
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-11-00, operation: add
 Package: CalUtil
