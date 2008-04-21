@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Apr 21 13:11:27 PDT 2008
+CalUtil/src/test
+
+Modified Files:
+	test_CalUtil.cxx 
+Log Message:
+updated test to handle new functionality
+
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Apr 21 13:11:15 PDT 2008
 CalUtil/src/SimpleCalCalib
 
