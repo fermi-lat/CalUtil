@@ -2,7 +2,7 @@
 #define CalUtil_CalDiagnostic_h
 
 /** @file
-$Header: $
+$Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDiagnosticWord.h,v 1.1 2008/02/27 20:11:47 fewtrell Exp $
 @author Z. Fewtrell
  */
 
@@ -29,6 +29,9 @@ namespace CalUtil {
     {
       
     }
+
+    /// construct from packed 32 bit word
+    CalDiagnosticWord(const unsigned dataWord);
 
     /// return 32 bit Cal diagnostic word with all LAC & trigger bits
     /// set 
