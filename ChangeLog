@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Mon Apr 21 13:11:08 PDT 2008
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx CalDiagnosticWord.cxx 
+Log Message:
+new classes represent collection of adc2nrg calibration constants & cal threshold dac settings (contain read/write from TXT functionality)
+
+    *
+------------------------------------------------------------
 User: fewtrell  Mon Apr 21 13:11:03 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
