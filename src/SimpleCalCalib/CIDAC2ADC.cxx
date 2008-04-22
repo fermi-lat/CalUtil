@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx,v 1.3 2008/04/22 18:12:26 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -19,6 +19,8 @@ namespace CalUtil {
 
   using namespace std;
   using namespace CalUtil;
+
+  const float CIDAC2ADC::INVALID_ADC = -5000;
 
   CIDAC2ADC::CIDAC2ADC()
   {
