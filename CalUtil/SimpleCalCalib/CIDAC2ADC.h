@@ -1,6 +1,6 @@
 #ifndef CIDAC2ADC_h
 #define CIDAC2ADC_h
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h,v 1.2 2008/04/22 18:12:26 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h,v 1.3 2008/04/22 19:30:08 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -68,7 +68,7 @@ namespace CalUtil {
     float adc2dac(const CalUtil::RngIdx rngIdx,
                   const float adc) const {
       if (!m_splinesADC2DAC[rngIdx])
-        return INVALID_ADC;
+        return INVALID_ADC();
 
       return std::max<float>(0,m_splinesADC2DAC[rngIdx]->Eval(adc));
     }
@@ -78,12 +78,13 @@ namespace CalUtil {
     float dac2adc(const CalUtil::RngIdx rngIdx,
                   const float dac) const {
       if (!m_splinesDAC2ADC[rngIdx])
-        return INVALID_ADC;
+        return INVALID_ADC();
 
       return std::max<float>(0,m_splinesDAC2ADC[rngIdx]->Eval(dac));
     }
 
-    static const float INVALID_ADC;
+    /// return value which is used to indicated invalid entry in table
+    static float INVALID_ADC();
 
     /// pedestal subtract spline point ADC by using value from first point
     void pedSubtractADCSplines();
