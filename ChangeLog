@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Apr 22 11:12:26 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CIDAC2ADC.cxx 
+Log Message:
+re arranged some static constants to avoid compiler warning on windows
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Apr 22 11:12:26 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
 Modified Files:
