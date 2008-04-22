@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Apr 22 11:12:26 PDT 2008
+CalUtil/CalUtil/SimpleCalCalib
+
+Modified Files:
+	CIDAC2ADC.h 
+Log Message:
+re arranged some static constants to avoid compiler warning on windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-12-00, operation: add
 Package: CalUtil
