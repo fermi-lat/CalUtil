@@ -1,6 +1,6 @@
 #ifndef CIDAC2ADC_h
 #define CIDAC2ADC_h
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/CIDAC2ADC.h,v 1.4 2007/06/13 22:42:12 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h,v 1.1 2008/01/22 20:12:07 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -83,7 +83,7 @@ namespace CalUtil {
       return std::max<float>(0,m_splinesDAC2ADC[rngIdx]->Eval(dac));
     }
 
-    static const short INVALID_ADC;
+    static const short INVALID_ADC = -5000;
 
     /// pedestal subtract spline point ADC by using value from first point
     void pedSubtractADCSplines();
