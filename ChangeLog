@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Apr 22 14:18:40 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CIDAC2ADC.cxx 
+Log Message:
+changed some public static library variables to static accessor methods as linking on windows dll's was not working correctly.
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Apr 22 14:18:40 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
 Modified Files:
