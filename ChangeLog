@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Tue Apr 22 12:30:08 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CIDAC2ADC.cxx 
+Log Message:
+removing compiler warnings
+
+    *
+------------------------------------------------------------
+User: fewtrell  Tue Apr 22 12:30:08 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
 Modified Files:
