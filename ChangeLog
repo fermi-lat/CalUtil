@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Fri May  9 14:50:17 PDT 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h 
+Log Message:
+added new constructors from raw integers fro some CalDefs index classes
+
+    *
+------------------------------------------------------------
 User: fewtrell  Tue May  6 13:15:01 PDT 2008
 CalUtil/doc
 
