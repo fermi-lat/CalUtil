@@ -1,6 +1,6 @@
 #ifndef CalDefs_H
 #define CalDefs_H
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.25 2008/03/03 16:26:49 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.26 2008/04/21 20:10:31 fewtrell Exp $
 
 // LOCAL
 
@@ -699,7 +699,7 @@ namespace CalUtil {
     }
     
   protected:
-    LATWideIndex(const unsigned val) : m_data(val) {}
+    explicit LATWideIndex(const unsigned val) : m_data(val) {}
     LATWideIndex() : m_data(0) {}
     unsigned m_data;
   };
@@ -788,6 +788,10 @@ namespace CalUtil {
   public:
     FaceIdx() : LATWideIndex() {}
 
+    /// construct object from raw index value (make sure you know the
+    /// indexing scheme)
+    explicit FaceIdx(const unsigned idx) : LATWideIndex(idx) {}
+
     explicit FaceIdx(const idents::CalXtalId faceId) {
       if (!faceId.validFace())
         throw invalid_argument("FaceIdx requires valid face info in xtalId"
@@ -860,6 +864,10 @@ namespace CalUtil {
     
     DiodeIdx() : LATWideIndex() {}
 
+    /// construct object from raw index value (make sure you know the
+    /// indexing scheme)
+    explicit DiodeIdx(const unsigned idx) : LATWideIndex(idx) {}
+
     static const unsigned N_VALS = FaceIdx::N_VALS*DiodeNum::N_VALS;
 
     TwrNum getTwr()     const {return TwrNum(m_data/TWR_BASE);}
@@ -922,6 +930,10 @@ namespace CalUtil {
     }
     
     RngIdx() : LATWideIndex() {}
+
+    /// construct object from raw index value (make sure you know the
+    /// indexing scheme)
+    explicit RngIdx(const unsigned idx) : LATWideIndex(idx) {}
 
     idents::CalXtalId getCalXtalId() const {
       return idents::CalXtalId(getTwr().val(),
