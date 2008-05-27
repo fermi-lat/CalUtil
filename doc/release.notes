@@ -1,8 +1,10 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.32 2008/02/21 16:15:15 makeev Exp $	
+ $Id: release.notes,v 1.33 2008/02/27 20:11:47 fewtrell Exp $	
  * Package CalUtil
+ * v3r10gr1   27-May-2008 HMK minor mods to Doxygen comments to hopefully
+ *            prevent core dump during documentation generation
  * v3r10      27-Feb-2008 ZGF added support routines for CalDiagnosticData
  * v3r9p1     21-Feb-2008 AVM made slight notation changes to CalConfig enumeration
  * v3r9       19-Feb-2008 AVM added CalFirstRng enumeration for specifying first range readout option in CalDigi
