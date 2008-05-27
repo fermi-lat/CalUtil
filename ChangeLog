@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Tue May 27 10:25:32 PDT 2008
+CalUtil/src
+
+Modified Files:
+      Tag: GlastReleasev15r3
+	CalDefs.cxx CalDiagnosticWord.cxx 
+Log Message:
+see if this fixes doxygen generation
+    *
+------------------------------------------------------------
+User: heather  Tue May 27 10:25:32 PDT 2008
 CalUtil/doc
 
 Modified Files:
