@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Tue May 27 10:25:32 PDT 2008
+CalUtil/CalUtil
+
+Modified Files:
+      Tag: GlastReleasev15r3
+	bit_util.h 
+Log Message:
+see if this fixes doxygen generation
+    *
+------------------------------------------------------------
 User: fewtrell  Fri May  9 14:50:17 PDT 2008
 CalUtil/CalUtil
 
