@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Tue Jun 10 12:21:10 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	NeighborXtalk.cxx 
+Log Message:
+'constified' some variables, should not change anything
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: v3r10gr1, operation: add
 Package: CalUtil
