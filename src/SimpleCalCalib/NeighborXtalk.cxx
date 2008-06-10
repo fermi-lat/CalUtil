@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/lib/CalibDataTypes/NeighborXtalk.cxx,v 1.5 2007/10/09 20:38:45 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -92,7 +92,7 @@ namespace CalUtil {
       for (ChannelSplineMap::const_iterator it = destMap.begin();
            it != destMap.end();
            it++) {
-        DiodeIdx srcIdx = it->first;
+        const DiodeIdx srcIdx = it->first;
         const  Polyline &pLine = it->second;
 
         // loop through each point in polyline
@@ -157,8 +157,8 @@ namespace CalUtil {
         DiodeIdx srcIdx = it->first;
         const  Polyline &pLine = it->second;
       
-        string tuple_name("neighbor_xtalk" + destIdx.toStr() + "_from_" +
-                          srcIdx.toStr());
+        const string tuple_name("neighbor_xtalk" + destIdx.toStr() + "_from_" +
+                                srcIdx.toStr());
 
         TNtuple *tuple = new TNtuple(tuple_name.c_str(),
                                      tuple_name.c_str(),
@@ -176,8 +176,6 @@ namespace CalUtil {
         gr->SetMarkerStyle(kMultiply);
 
         float tuple_data[2];
-
-      
 
         // loop through each point in polyline
         for (unsigned i = 0; i < pLine.size(); i++) {
@@ -215,7 +213,7 @@ namespace CalUtil {
 
         Polyline &spline = chanIt->second;
 
-        float adcPed = spline[0].second;
+        const float adcPed = spline[0].second;
 
         for (Polyline::iterator splIt = spline.begin();
              splIt != spline.end();
