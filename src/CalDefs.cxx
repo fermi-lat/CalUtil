@@ -1,6 +1,7 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalDefs.cxx,v 1.15 2008/03/03 16:26:49 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalDefs.cxx,v 1.14.46.1 2008/05/27 17:25:32 heather Exp $
 
-/** @file implement CalDigi.h
+/** @file CalDefs.cxx
+    implement CalDigi.h
     @author fewtrell
 */
 
