@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jun 10 19:58:22 PDT 2008
+CalUtil/CalUtil
+
+Modified Files:
+	bit_util.h 
+Log Message:
+merge in doxy updates into main trunk
+    *
+------------------------------------------------------------
 User: fewtrell  Tue Jun 10 12:21:10 PDT 2008
 CalUtil/src/SimpleCalCalib
 
