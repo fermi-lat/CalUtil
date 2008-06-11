@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 10 19:58:22 PDT 2008
+CalUtil/CalUtil/SimpleCalCalib
+
+Modified Files:
+	SplineUtil.h 
+Log Message:
+merge in doxy updates into main trunk
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 10 19:58:22 PDT 2008
 CalUtil/CalUtil
 
 Modified Files:
