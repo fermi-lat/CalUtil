@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Tue Jun 10 19:58:23 PDT 2008
+CalUtil/src
+
+Modified Files:
+	CalDefs.cxx CalDiagnosticWord.cxx 
+Log Message:
+merge in doxy updates into main trunk
+    *
+------------------------------------------------------------
+User: heather  Tue Jun 10 19:58:23 PDT 2008
 CalUtil/doc
 
 Modified Files:
