@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalAsym.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalAsym.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -24,7 +24,7 @@ namespace CalUtil {
   {
   }
 
-  void CalAsym::writeTXT(const string &filename) const {
+  void CalAsym::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     if (!outfile.is_open())
@@ -57,7 +57,7 @@ namespace CalUtil {
     }
   }
 
-  void CalAsym::readTXT(const string &filename) {
+  void CalAsym::readTXT(const std::string &filename) {
     unsigned short twr, lyr, col, pdiode, ndiode;
     float asym, sig;
 

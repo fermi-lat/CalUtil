@@ -1,6 +1,6 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/ADC2NRG.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/ADC2NRG.cxx,v 1.1 2008/04/21 20:11:15 fewtrell Exp $
 
-/** @file
+/** @file ADC2NRG.cxx
     @author Zachary Fewtrell
 */
 
@@ -15,7 +15,7 @@
 #include <fstream>
 #include <sstream>
 
-using namespace CalUtil;
+//using namespace CalUtil;
 using namespace std;
 
 
@@ -28,7 +28,7 @@ namespace CalUtil {
   {
   }
 
-  void ADC2NRG::writeTXT(const string &filename) const {
+  void ADC2NRG::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     // output header info as comment
@@ -47,7 +47,7 @@ namespace CalUtil {
               << endl;
   }
 
-  void ADC2NRG::readTXT(const string &filename) {
+  void ADC2NRG::readTXT(const std::string &filename) {
     ifstream infile(filename.c_str());
 
     if (!infile.is_open())

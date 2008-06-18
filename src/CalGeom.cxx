@@ -3,7 +3,7 @@
 
     @author Zach Fewtrell
 
-    $Header: $
+    $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalGeom.cxx,v 1.2 2008/02/27 20:11:47 fewtrell Exp $
 */
 
 // LOCAL INCLUDES
@@ -23,9 +23,9 @@
 
 namespace CalUtil {
 
-  /// find which GLAST LAT towers are present by creating a VolumeIdentifer inside of each one and
-  /// checking with GlastDetSvc if it is valid.
   std::vector<CalUtil::TwrNum>  findActiveTowers(IGlastDetSvc &detSvc) {
+    /// find which GLAST LAT towers are present by creating a VolumeIdentifer inside of each one and
+    /// checking with GlastDetSvc if it is valid.
     std::vector<CalUtil::TwrNum> twrList;
   
     /*-- RETRIEVE CONSTANTS */

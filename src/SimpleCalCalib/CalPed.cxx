@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalPed.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalPed.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -27,7 +27,7 @@ namespace CalUtil {
   {
   }
 
-  void CalPed::writeTXT(const string &filename) const {
+  void CalPed::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     // output header info as comment
@@ -48,7 +48,7 @@ namespace CalUtil {
                 << endl;
   }
 
-  void CalPed::readTXT(const string &filename) {
+  void CalPed::readTXT(const std::string &filename) {
     ifstream infile(filename.c_str());
 
     if (!infile.is_open())
