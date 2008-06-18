@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalMPD.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalMPD.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -28,7 +28,7 @@ namespace CalUtil {
       fill(m_mpd[diode].begin(), m_mpd[diode].end(), INVALID_MPD);
   }
 
-  void CalMPD::writeTXT(const string &filename) const {
+  void CalMPD::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     if (!outfile.is_open())
@@ -57,7 +57,7 @@ namespace CalUtil {
       }
   }
 
-  void CalMPD::readTXT(const string &filename) {
+  void CalMPD::readTXT(const std::string &filename) {
     unsigned short twr, lyr, col, diode;
     float mpd, sig;
 

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalDAC.cxx,v 1.2 2008/02/05 22:32:23 makeev Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalDAC.cxx,v 1.1 2008/04/21 20:11:15 fewtrell Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -28,7 +28,7 @@ namespace CalUtil {
   {
   }
 
-  void CalDAC::writeTXT(const string &filename) const {
+  void CalDAC::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     // output header info as comment
@@ -46,7 +46,7 @@ namespace CalUtil {
               << endl;
   }
 
-  void CalDAC::readTXT(const string &filename) {
+  void CalDAC::readTXT(const std::string &filename) {
     ifstream infile(filename.c_str());
 
     if (!infile.is_open())

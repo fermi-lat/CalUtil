@@ -1,9 +1,9 @@
 #ifndef ADC2NRG_h
 #define ADC2NRG_h
 
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/SimpleCalCalib/ADC2NRG.h,v 1.1 2008/01/22 20:12:07 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/SimpleCalCalib/ADC2NRG.h,v 1.1 2008/04/21 20:11:03 fewtrell Exp $
 
-/** @file
+/** @file ADC2NRG.h
     @author Zachary Fewtrell
 */
 

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx,v 1.4 2008/04/22 19:30:08 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx,v 1.5 2008/04/22 21:18:40 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -26,7 +26,7 @@ namespace CalUtil {
   {
   }
 
-  void CIDAC2ADC::writeTXT(const string &filename) const {
+  void CIDAC2ADC::writeTXT(const std::string &filename) const {
     ofstream outfile(filename.c_str());
 
     if (!outfile.is_open()) {
@@ -56,7 +56,7 @@ namespace CalUtil {
       }
   }
 
-  void CIDAC2ADC::readTXT(const string &filename) {
+  void CIDAC2ADC::readTXT(const std::string &filename) {
     ifstream infile(filename.c_str());
 
     if (!infile.is_open()) {
