@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Fri Aug 15 14:22:40 PDT 2008
+GlastRelease-scons/CalUtil
+
+Added Files:
+	SConscript 
+Log Message:
+Added SConscript files for packages
+    *
+------------------------------------------------------------
 User: fewtrell  Thu Aug  7 07:47:26 PDT 2008
 CalUtil/xml
 
