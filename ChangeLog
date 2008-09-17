@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: fewtrell  Wed Sep 17 13:04:49 PDT 2008
+CalUtil/CalUtil
+
+Modified Files:
+	CalDefs.h CalVec.h 
+Log Message:
+CalAsym now supports varying number of slices per xtal
+
+    *
+------------------------------------------------------------
 User: ecephas  Fri Aug 15 14:42:34 PDT 2008
 GlastRelease-scons/CalUtil
 
