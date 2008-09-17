@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx,v 1.1 2008/01/22 20:06:35 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx,v 1.2 2008/06/10 19:21:09 fewtrell Exp $
 
 /** @file
     @author fewtrell
@@ -141,6 +141,13 @@ namespace CalUtil {
     TFile rootFile(filename.c_str(),
                    "RECREATE",
                    "GLAST Cal Neighboring Crystal Cross-talk splines");
+    if (!rootFile.IsOpen()) {
+      ostringstream tmp;
+      tmp << __FILE__ << ":" << __LINE__ << " "
+          << "ERROR! unable to open txtFile='" << filename << "'";
+      throw runtime_error(tmp.str());
+    }
+
   
     // loop through each destination channel
     for (DiodeIdx destIdx; destIdx.isValid(); destIdx++) {
