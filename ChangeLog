@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Sep 17 13:05:42 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Added Files:
+	IdealCalCalib.cxx 
+Log Message:
+ideal calibration files moved from CalXtalResponse
+
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Sep 17 13:05:42 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
 Added Files:
