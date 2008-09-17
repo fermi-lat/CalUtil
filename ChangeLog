@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Sep 17 13:05:42 PDT 2008
+CalUtil/xml
+
+Added Files:
+	idealCalib_flight.xml idealCalib_history.txt 
+	idealCalib_muon.xml 
+Log Message:
+ideal calibration files moved from CalXtalResponse
+
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Sep 17 13:05:42 PDT 2008
 CalUtil/src/SimpleCalCalib
 
 Added Files:
