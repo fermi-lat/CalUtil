@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: fewtrell  Wed Sep 17 13:04:49 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CalAsym.cxx NeighborXtalk.cxx 
+Log Message:
+CalAsym now supports varying number of slices per xtal
+
+    *
+------------------------------------------------------------
+User: fewtrell  Wed Sep 17 13:04:49 PDT 2008
 CalUtil/CalUtil/SimpleCalCalib
 
 Modified Files:
