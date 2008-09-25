@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: fewtrell  Thu Sep 25 16:43:39 PDT 2008
+CalUtil/src/SimpleCalCalib
+
+Modified Files:
+	CalAsym.cxx 
+Log Message:
+bug in dynamic array creation
+    *
+------------------------------------------------------------
+User: fewtrell  Thu Sep 25 16:43:39 PDT 2008
 CalUtil/doc
 
 Modified Files:
