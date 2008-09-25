@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Thu Sep 25 14:46:27 PDT 2008
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	CalUtilLib.py 
+Log Message:
+Added env.Tool('identsLib').
+    *
+------------------------------------------------------------
 User: ecephas  Thu Sep 25 14:45:36 PDT 2008
 GlastRelease-scons/CalUtil
 
