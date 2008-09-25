@@ -1,8 +1,9 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.42 2008/09/23 15:28:32 fewtrell Exp $	
+ $Id: release.notes,v 1.43 2008/09/25 23:43:39 fewtrell Exp $	
  * Package CalUtil
+ * v3r14p2    25-Sep-2008 ZGF p1 was not correctly checked in.
  * v3r14p1    25-Sep-2008 ZGF Fixed bug in dynamic array creation.
  * v3r14      23-Sep-2008 ZGF Move ideal calibration xml files to CalUtil from CalXtalResponse.
                               CalAsym now supports variable nSlices per xtal
