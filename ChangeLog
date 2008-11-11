@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+User: ecephas  Tue Nov 11 09:15:50 PST 2008
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+Changed
+
+	test_CalUtil = progEnv.Program('test_CalUtil', listFiles(['src/test/*.cxx']))
+
+to
+
+	test_CalUtil = progEnv.Program('test_CalUtil', ['src/test/test_CalUtil.cxx'])
+----
+
+Changed
+
+	progEnv.Tool('registerObjects', package = 'CalUtil', libraries = [CalUtil], testApps = [test_CalUtil], includes = listFiles(['CalUtil/*.h']) + listFiles(['CalUtil/SimpleCalCalib/*.h']))
+
+to
+	 progEnv.Tool('registerObjects', package = 'CalUtil', libraries = [CalUtil], testApps = [test_CalUtil], 
+               includes = listFiles(['CalUtil/*'], recursive = 1))
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-02, operation: add
 Package: CalUtil
