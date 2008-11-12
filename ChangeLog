@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: ecephas  Wed Nov 12 11:39:28 PST 2008
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	CalUtilLib.py 
+Log Message:
+Added
+	env.Tool('addLibrary', library = env['rootLibs'])
+     	env.Tool('xmlBaseLib')
+
+    *
+------------------------------------------------------------
 User: ecephas  Tue Nov 11 09:15:50 PST 2008
 GlastRelease-scons/CalUtil
 
