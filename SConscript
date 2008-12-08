@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/SConscript,v 1.4 2008/09/26 00:30:13 glastrm Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/SConscript,v 1.5 2008/11/11 17:15:50 ecephas Exp $
 # Authors: 
-# Version: CalUtil-03-14-02
+# Version: CalUtil-03-13-01
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
@@ -17,3 +17,6 @@ test_CalUtil = progEnv.Program('test_CalUtil', ['src/test/test_CalUtil.cxx'])
 
 progEnv.Tool('registerObjects', package = 'CalUtil', libraries = [CalUtil], testApps = [test_CalUtil], 
 		includes = listFiles(['CalUtil/*'], recursive = 1))
+
+
+
