@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:39:42 PST 2008
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for CalUtil v3r13p1 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: ecephas  Wed Nov 12 11:39:28 PST 2008
 GlastRelease-scons/CalUtil
 
