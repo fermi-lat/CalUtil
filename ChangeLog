@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: jrb  Tue Aug 25 16:21:16 PDT 2009
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+SConscript:  convert to use registerTargets
+.cvsignore:  ignore build dir, *.pyc
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 08:50:48 PDT 2009
 CalUtil/doc
 
