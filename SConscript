@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/SConscript,v 1.5 2008/11/11 17:15:50 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/SConscript,v 1.7 2009/01/23 00:06:50 ecephas Exp $
 # Authors: 
 # Version: CalUtil-03-13-01
 Import('baseEnv')
@@ -15,8 +15,10 @@ CalUtil = libEnv.SharedLibrary('CalUtil', listFiles(['src/*.cxx']) + listFiles([
 progEnv.Tool('CalUtilLib')
 test_CalUtil = progEnv.Program('test_CalUtil', ['src/test/test_CalUtil.cxx'])
 
-progEnv.Tool('registerObjects', package = 'CalUtil', libraries = [CalUtil], testApps = [test_CalUtil], 
-		includes = listFiles(['CalUtil/*'], recursive = 1))
+progEnv.Tool('registerTargets', package = 'CalUtil',
+             libraryCxts = [[CalUtil, libEnv]],
+             testAppCxts = [[test_CalUtil, progEnv]], 
+             includes = listFiles(['CalUtil/*'], recursive = 1))
 
 
 
