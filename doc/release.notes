@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.44 2008/09/25 23:44:29 fewtrell Exp $	
+ $Id: release.notes,v 1.45 2009/07/01 15:50:48 heather Exp $	
  * Package CalUtil
  * EOH *
 
+ CalUtil-03-14-03 05-Nov-2009    jrb Updates for SCons
  * v3r14p2    25-Sep-2008 ZGF p1 was not correctly checked in.
  * v3r14p1    25-Sep-2008 ZGF Fixed bug in dynamic array creation.
  * v3r14      23-Sep-2008 ZGF Move ideal calibration xml files to CalUtil from CalXtalResponse.
