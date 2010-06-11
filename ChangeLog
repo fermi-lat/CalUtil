@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:33:40 PDT 2010
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-03, operation: add
 Package: CalUtil
