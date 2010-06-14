@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/SConscript,v 1.10 2010/06/11 00:33:40 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/SConscript,v 1.11 2010/06/12 17:20:50 jrb Exp $
 # Authors: 
 # Version: CalUtil-03-14-04
 Import('baseEnv')
@@ -23,7 +23,8 @@ test_CalUtil = progEnv.Program('test_CalUtil',
 progEnv.Tool('registerTargets', package = 'CalUtil',
              libraryCxts = [[CalUtil, libEnv]],
              testAppCxts = [[test_CalUtil, progEnv]], 
-             includes = listFiles(['CalUtil/*'], recursive = 1))
+             includes = listFiles(['CalUtil/*'], recursive = 1),
+             xml = ['xml/idealCalib_flight.xml', 'xml/idealCalib_muon.xml'])
 
 
 
