@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Mon Jun 14 16:18:00 PDT 2010
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+install ideal calib. files
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-04, operation: add
 Package: CalUtil
