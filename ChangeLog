@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: jrb  Wed Oct 20 11:13:17 PDT 2010
+GlastRelease-scons/CalUtil
+
+Modified Files:
+      Tag: GlastReleasev18r7p1
+	CalUtilLib.py 
+Log Message:
+add dependence on gaudi
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-03-gr01, operation: add
 Package: CalUtil
