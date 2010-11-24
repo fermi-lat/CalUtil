@@ -3,8 +3,11 @@
 
     @author Zach Fewtrell
 
-    $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalGeom.cxx,v 1.2 2008/02/27 20:11:47 fewtrell Exp $
+    $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/src/CalGeom.cxx,v 1.3 2008/06/18 16:27:20 heather Exp $
 */
+
+// EXTLIB INCLUDES
+//#include "GaudiKernel/StatusCode.h"   already included in IGlastDetSvc
 
 // LOCAL INCLUDES
 #include "CalUtil/CalDefs.h"
@@ -13,8 +16,6 @@
 #include "idents/VolumeIdentifier.h"
 #include "GlastSvc/GlastDetSvc/IGlastDetSvc.h"
 
-// EXTLIB INCLUDES
-#include "GaudiKernel/StatusCode.h"
 
 // STD INCLUDES
 #include <vector>
