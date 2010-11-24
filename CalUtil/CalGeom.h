@@ -1,4 +1,4 @@
-//    $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalGeom.h,v 1.2 2007/11/06 20:50:55 fewtrell Exp $
+//    $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/CalGeom.h,v 1.3 2008/01/22 19:58:38 fewtrell Exp $
 #ifndef CalGeom_h
 #define CalGeom_h
 
