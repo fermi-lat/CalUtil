@@ -1,6 +1,6 @@
 #ifndef CalUtil_stl_util_h
 #define CalUtil_stl_util_h
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/stl_util.h,v 1.1 2007/11/06 21:10:44 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/stl_util.h,v 1.2 2008/01/22 19:58:38 fewtrell Exp $
 
 /** @file 
     Generic C++ STL based utilities.

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalArray.h,v 1.4 2007/10/09 18:56:23 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/CalArray.h,v 1.5 2007/11/06 20:50:55 fewtrell Exp $
 #ifndef CalArray_h
 #define CalArray_h
 
