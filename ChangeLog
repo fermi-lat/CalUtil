@@ -1,5 +1,17 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: CalUtil
+User: heather  Wed Sep  7 14:39:02 2011
+Files:
+  CalUtil/.cvsignore  1.4
+  CalUtil/ChangeLog  1.312
+  CalUtil/SConscript  1.13
+  CalUtil/CalUtilLib.py  1.3
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: CalUtil
 User: heather  Wed Sep  7 10:36:00 2011
