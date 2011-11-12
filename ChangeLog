@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Nov 11 16:46:41 PST 2011
+GlastRelease-scons/CalUtil
+
+Modified Files:
+	CalUtilLib.py 
+Log Message:
+add dependency on gaudi libs
+    *
+------------------------------------------------------------
 User: jrb  Fri Nov 11 16:45:31 PST 2011
 GlastRelease-scons/CalUtil/CalUtil
 
