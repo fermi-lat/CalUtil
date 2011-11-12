@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalVec.h,v 1.8 2008/01/22 19:58:38 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/CalVec.h,v 1.9 2008/09/17 20:04:49 fewtrell Exp $
 #ifndef CalVec_h
 #define CalVec_h
 
