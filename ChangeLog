@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Nov 11 16:45:31 PST 2011
+GlastRelease-scons/CalUtil/CalUtil
+
+Modified Files:
+	CalArray.h 
+Log Message:
+fix carriage control for vc90
+    *
+------------------------------------------------------------
 User: jrb  Fri Nov 11 16:32:05 PST 2011
 GlastRelease-scons/CalUtil/CalUtil/SimpleCalCalib
 
