@@ -1,6 +1,6 @@
 #ifndef IdealCalCalib_H
 #define IdealCalCalib_H
-// $Header: /nfs/slac/g/glast/ground/cvs/CalXtalResponse/src/CalCalib/IdealCalCalib.h,v 1.8 2008/01/22 20:14:47 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/SimpleCalCalib/IdealCalCalib.h,v 1.1 2008/09/17 20:05:42 fewtrell Exp $
 /** @file
     @author Z.Fewtrell
 */
