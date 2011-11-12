@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: jrb  Fri Nov 11 16:32:05 PST 2011
+GlastRelease-scons/CalUtil/CalUtil/SimpleCalCalib
+
+Modified Files:
+	IdealCalCalib.h 
+Log Message:
+fix carriage control for vc90
+    *
+------------------------------------------------------------
+User: jrb  Fri Nov 11 16:32:05 PST 2011
 GlastRelease-scons/CalUtil/CalUtil
 
 Modified Files:
