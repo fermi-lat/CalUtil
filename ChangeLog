@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Mon Nov 14 16:36:03 PST 2011
+GlastRelease-scons/CalUtil/CalUtil
+
+Modified Files:
+	CalGeom.h stl_util.h 
+Log Message:
+Fix carriage control for vc90
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-06, operation: add
 Package: CalUtil
