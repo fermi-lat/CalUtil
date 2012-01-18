@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Wed Jan 18 14:20:05 PST 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr17, operation: add
 Package: CalUtil
