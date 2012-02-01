@@ -1,5 +1,56 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr20, operation: add
+Package: CalUtil
+User: heather  Wed Feb  1 12:16:52 2012
+Files:
+  CalUtil/.cvsignore  1.4
+  CalUtil/ChangeLog  1.312
+  CalUtil/SConscript  1.13.64.1
+  CalUtil/CalUtilLib.py  1.3.110.1
+  CalUtil/CalUtil/CalGeom.h  1.3
+  CalUtil/CalUtil/CalConfig.h  1.2
+  CalUtil/CalUtil/CalArray.h  1.5
+  CalUtil/CalUtil/bit_util.h  1.3
+  CalUtil/CalUtil/CalVec.h  1.9
+  CalUtil/CalUtil/CalDiagnosticWord.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.28
+  CalUtil/CalUtil/stl_util.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/IdealCalCalib.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalMPD.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/ADC2NRG.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalPed.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalAsym.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/TholdCI.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/NeighborXtalk.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/SplineUtil.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalDAC.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h  1.4
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.26.64.1
+  CalUtil/doc/release.notes  1.48.64.1
+  CalUtil/src/mainpage.h  1.10
+  CalUtil/src/CalGeom.cxx  1.3
+  CalUtil/src/CalDefs.cxx  1.17
+  CalUtil/src/CalDiagnosticWord.cxx  1.3
+  CalUtil/src/SimpleCalCalib/SplineUtil.cxx  1.1
+  CalUtil/src/SimpleCalCalib/CalMPD.cxx  1.3
+  CalUtil/src/SimpleCalCalib/CIDAC2ADC.cxx  1.6
+  CalUtil/src/SimpleCalCalib/NeighborXtalk.cxx  1.3
+  CalUtil/src/SimpleCalCalib/IdealCalCalib.cxx  1.1
+  CalUtil/src/SimpleCalCalib/TholdCI.cxx  1.3
+  CalUtil/src/SimpleCalCalib/CalPed.cxx  1.3
+  CalUtil/src/SimpleCalCalib/CalDAC.cxx  1.2
+  CalUtil/src/SimpleCalCalib/CalAsym.cxx  1.5
+  CalUtil/src/SimpleCalCalib/ADC2NRG.cxx  1.2
+  CalUtil/src/test/test_CalUtil.cxx  1.18
+  CalUtil/xml/idealCalib_history.txt  1.1
+  CalUtil/xml/idealCalib_muon.xml  1.1
+  CalUtil/xml/idealCalib_flight.xml  1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: CalUtil-03-14-05-gr01, operation: add
 Package: CalUtil
 User: heather  Tue Jan 31 13:38:08 2012
