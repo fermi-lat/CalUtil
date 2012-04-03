@@ -1,5 +1,38 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-rp03, operation: add
+Package: CalUtil
+User: heather  Tue Apr  3 01:17:10 2012
+Files:
+  CalUtil/.cvsignore  1.4
+  CalUtil/ChangeLog  1.312
+  CalUtil/SConscript  1.13
+  CalUtil/CalUtilLib.py  1.3
+  CalUtil/CalUtil/CalGeom.h  1.3
+  CalUtil/CalUtil/CalConfig.h  1.2
+  CalUtil/CalUtil/CalArray.h  1.5
+  CalUtil/CalUtil/bit_util.h  1.3
+  CalUtil/CalUtil/CalVec.h  1.9
+  CalUtil/CalUtil/CalDiagnosticWord.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.28
+  CalUtil/CalUtil/stl_util.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/IdealCalCalib.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalMPD.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/ADC2NRG.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalPed.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalAsym.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/TholdCI.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/NeighborXtalk.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/SplineUtil.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalDAC.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h  1.4
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.26
+  CalUtil/doc/release.notes  1.48
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-rp02, operation: add
 Package: CalUtil
 User: heather  Tue Mar 27 09:21:35 2012
