@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: chehtman  Fri May 18 14:44:15 PDT 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+added my name as an author
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-lp25, operation: add
 Package: CalUtil
