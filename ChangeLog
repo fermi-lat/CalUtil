@@ -1,5 +1,25 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp24, operation: add
+Package: CalUtil
+User: heather  Fri May 18 05:51:04 2012
+Files:
+  CalUtil/.cvsignore  1.4
+  CalUtil/ChangeLog  1.312
+  CalUtil/SConscript  1.13
+  CalUtil/CalUtilLib.py  1.3
+  CalUtil/CalUtil/CalGeom.h  1.3
+  CalUtil/CalUtil/CalConfig.h  1.2
+  CalUtil/CalUtil/CalArray.h  1.5
+  CalUtil/CalUtil/bit_util.h  1.3
+  CalUtil/CalUtil/CalVec.h  1.9
+  CalUtil/CalUtil/CalDiagnosticWord.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.28
+  CalUtil/CalUtil/stl_util.h  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-lp23, operation: add
 Package: CalUtil
 User: heather  Thu May 17 21:19:32 2012
