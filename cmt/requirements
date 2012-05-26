@@ -1,7 +1,7 @@
 package CalUtil
-version v3r14p7
+version v3r14p8
 
-# $Id: requirements,v 1.27 2011/11/12 00:47:56 jrb Exp $
+# $Id: requirements,v 1.28 2012/01/18 22:20:05 jrb Exp $
 branches src cmt doc
 
 use GlastPolicy    
