@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Sun May 27 10:45:07 PDT 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+fix cmt author setting
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-09, operation: add
 Package: CalUtil
