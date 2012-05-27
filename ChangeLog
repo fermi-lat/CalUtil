@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Sat May 26 20:17:44 PDT 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+Add Sasha's emai address to the author line
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-14-08, operation: add
 Package: CalUtil
