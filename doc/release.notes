@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.51 2012/05/26 14:48:43 lsrea Exp $	
+ $Id: release.notes,v 1.52 2012/05/27 03:19:23 lsrea Exp $	
  * Package CalUtil
  * EOH *
 
+ CalUtil-03-14-10 27-May-2012 heather fix cmt author setting
  CalUtil-03-14-09 26-May-2012  lsrea another try at setting the SCons author
  CalUtil-03-14-08 26-May-2012  lsrea Sasha claims this package
  CalUtil-03-14-07 18-Jan-2012    jrb tag carriage control patches required by vc90
