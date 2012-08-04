@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: lbaldini  Sat Aug  4 06:57:58 PDT 2012
+CalUtil/src
+
+Added Files:
+	CalClusterHitTool.cxx 
+Log Message:
+Initial import.
+    *
+------------------------------------------------------------
+User: lbaldini  Sat Aug  4 06:57:58 PDT 2012
 CalUtil/CalUtil
 
 Added Files:
