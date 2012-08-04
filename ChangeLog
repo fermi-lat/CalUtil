@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lbaldini  Sat Aug  4 06:56:33 PDT 2012
+CalUtil
+
+Modified Files:
+	CalUtilLib.py 
+Log Message:
+EventLib added for the new CAL tools.
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-04-01, operation: add
 Package: CalUtil
