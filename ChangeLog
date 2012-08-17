@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Fri Aug 17 16:53:57 PDT 2012
+GlastRelease-scons/CalUtil/src
+
+Modified Files:
+	CalClusterHitTool.cxx 
+Log Message:
+add return value to make compiler happy
+    *
+------------------------------------------------------------
 User: jrb  Fri Aug 17 12:41:18 PDT 2012
 GlastRelease-scons/CalUtil
 
