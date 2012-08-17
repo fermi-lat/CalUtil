@@ -7,7 +7,7 @@
  *
  * @author Luca Baldini (luca.baldini@pi.infn.it)
  *
- * $Header: $
+ * $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/src/CalClusterHitTool.cxx,v 1.1 2012/08/04 13:57:58 lbaldini Exp $
  */
 
 #include "GaudiKernel/AlgTool.h"
@@ -105,6 +105,7 @@ StatusCode CalClusterHitTool::fillRecDataVec(Event::CalCluster* cluster)
     }
   }
   delete relTab;
+  return StatusCode::SUCCESS;
 }
 
 
