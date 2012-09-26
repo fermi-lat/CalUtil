@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: carmelo  Wed Sep 26 08:46:59 PDT 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+Bias maps in CalUtil
+    *
+------------------------------------------------------------
 User: carmelo  Fri Sep 21 05:45:59 PDT 2012
 CalUtil/src
 
