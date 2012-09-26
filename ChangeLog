@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: carmelo  Wed Sep 26 08:46:59 PDT 2012
+CalUtil/xml
+
+Added Files:
+	BiasMapCalCfpEnergy.txt BiasMapCalNewCfpCalEnergy_max20.txt 
+	BiasMapEvtEnergyCorr.txt 
+Log Message:
+Bias maps in CalUtil
+    *
+------------------------------------------------------------
+User: carmelo  Wed Sep 26 08:46:59 PDT 2012
 CalUtil/src
 
 Modified Files:
