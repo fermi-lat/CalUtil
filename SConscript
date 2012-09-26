@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/SConscript,v 1.20 2012/05/27 17:45:07 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/SConscript,v 1.21 2012/08/20 18:14:59 jrb Exp $
 # Authors: Alexandre Chekhtman <achekhtm@gmu.edu> 
 # Version: CalUtil-03-15-00
 Import('baseEnv')
@@ -24,7 +24,8 @@ progEnv.Tool('registerTargets', package = 'CalUtil',
              libraryCxts = [[CalUtil, libEnv]],
              testAppCxts = [[test_CalUtil, progEnv]], 
              includes = listFiles(['CalUtil/*'], recursive = 1),
-             xml = ['xml/idealCalib_flight.xml', 'xml/idealCalib_muon.xml'])
+             xml = listFiles(['xml/BiasMap*.txt', 'xml/idealCalib_flight.xml', 'xml/idealCalib_muon.xml']))
+
 
 
 
