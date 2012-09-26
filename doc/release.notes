@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.53 2012/05/27 17:45:08 heather Exp $	
+ $Id: release.notes,v 1.54 2012/08/20 18:14:59 jrb Exp $	
  * Package CalUtil
  * EOH *
 
+ CalUtil-03-15-01 26-Sep-2012 carmelo Move Cal unbiasing tool here
  CalUtil-03-15-00 20-Aug-2012    jrb for Windows no-install-headers
  CalUtil-03-14-10 27-May-2012 heather fix cmt author setting
  CalUtil-03-14-09 26-May-2012  lsrea another try at setting the SCons author
