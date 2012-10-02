@@ -1,10 +1,12 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.54 2012/08/20 18:14:59 jrb Exp $	
+ $Id: release.notes,v 1.55 2012/09/26 22:47:34 carmelo Exp $	
  * Package CalUtil
  * EOH *
 
+ CalUtil-03-16-00 02-Oct-2012 heather identical to 03-15-01, just reapplying
+   tag to increment the revision #
  CalUtil-03-15-01 26-Sep-2012 carmelo Move Cal unbiasing tool here
  CalUtil-03-15-00 20-Aug-2012    jrb for Windows no-install-headers
  CalUtil-03-14-10 27-May-2012 heather fix cmt author setting
