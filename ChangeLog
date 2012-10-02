@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Oct  2 11:19:23 PDT 2012
+CalUtil
+
+Modified Files:
+	SConscript 
+Log Message:
+retagging to reflect uptick in revision #
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-05-01, operation: add
 Package: CalUtil
