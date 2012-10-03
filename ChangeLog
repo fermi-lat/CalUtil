@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: carmelo  Wed Oct  3 06:29:57 PDT 2012
+CalUtil/xml
+
+Added Files:
+	BiasMapEvtEnergyCorr_Back.txt BiasMapEvtEnergyCorr_Front.txt 
+Log Message:
+First attempt to build a bias map for Parametric without leakage correction
+    *
+------------------------------------------------------------
 TAG
 Tag name: CalUtil-03-16-00, operation: add
 Package: CalUtil
