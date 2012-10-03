@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.55 2012/09/26 22:47:34 carmelo Exp $	
+ $Id: release.notes,v 1.56 2012/10/02 18:19:23 heather Exp $	
  * Package CalUtil
  * EOH *
 
+ CalUtil-03-17-00 03-Oct-2012 heather Add unbiasing maps for EvtEnergyCorr (separating front/back)
  CalUtil-03-16-00 02-Oct-2012 heather identical to 03-15-01, just reapplying
    tag to increment the revision #
  CalUtil-03-15-01 26-Sep-2012 carmelo Move Cal unbiasing tool here

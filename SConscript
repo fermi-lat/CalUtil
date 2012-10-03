@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/SConscript,v 1.23 2012/09/26 22:47:34 carmelo Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/SConscript,v 1.24 2012/10/02 18:19:22 heather Exp $
 # Authors: Alexandre Chekhtman <achekhtm@gmu.edu> 
-# Version: CalUtil-03-16-00
+# Version: CalUtil-03-17-00
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
