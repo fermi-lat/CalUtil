@@ -7,7 +7,7 @@
  *
  * @author Luca Baldini (luca.baldini@pi.infn.it)
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/src/CalClusterHitTool.cxx,v 1.1 2012/08/04 13:57:58 lbaldini Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalClusterHitTool.cxx,v 1.2 2012/08/17 23:53:57 jrb Exp $
  */
 
 #include "GaudiKernel/AlgTool.h"
@@ -26,8 +26,8 @@ class CalClusterHitTool : public AlgTool, virtual public ICalClusterHitTool
 public:
   /// Standard Gaudi Tool interface constructor
   CalClusterHitTool(const std::string& type,
-		    const std::string& name,
-		    const IInterface* parent);
+                    const std::string& name,
+                    const IInterface* parent);
   /// Destructor.
   virtual ~CalClusterHitTool() {}
   /// @brief Initialization of the tool.
@@ -54,8 +54,8 @@ DECLARE_TOOL_FACTORY(CalClusterHitTool);
 
 
 CalClusterHitTool::CalClusterHitTool(const std::string& type,
-				     const std::string& name,
-				     const IInterface* parent):
+                                     const std::string& name,
+                                     const IInterface* parent):
   AlgTool(type, name, parent)
 {
   declareInterface<ICalClusterHitTool>(this);

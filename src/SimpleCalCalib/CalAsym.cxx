@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalAsym.cxx,v 1.4 2008/09/17 20:04:49 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/SimpleCalCalib/CalAsym.cxx,v 1.5 2008/09/25 23:43:39 fewtrell Exp $
 
 /** @file
     @author Zachary Fewtrell
@@ -156,8 +156,8 @@ namespace CalUtil {
       }
     }
 
-	delete [] pos;
-	delete [] asym;
+        delete [] pos;
+        delete [] asym;
   }
 
 }; // namespace CalUtil
