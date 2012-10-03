@@ -1,8 +1,8 @@
 package CalUtil
-version v3r16p0
+version v3r17p0
 author Alexandre Chekhtman <achekhtm@gmu.edu>
 
-# $Id: requirements,v 1.33 2012/09/26 22:47:34 carmelo Exp $
+# $Id: requirements,v 1.34 2012/10/02 18:19:23 heather Exp $
 branches src cmt doc
 
 use GlastPolicy    
