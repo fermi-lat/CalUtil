@@ -1,6 +1,6 @@
 #ifndef CalDefs_H
 #define CalDefs_H
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/CalUtil/CalUtil/CalDefs.h,v 1.28 2008/09/17 20:04:49 fewtrell Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/CalUtil/CalDefs.h,v 1.29 2011/11/12 00:32:04 jrb Exp $
 
 // LOCAL
 
@@ -1148,6 +1148,10 @@ namespace CalUtil {
     static const unsigned TEM_BASE = CCC_BASE*GCCCNum::N_VALS;
     static const unsigned short N_FIELDS = 2;
   };
+  
+  /// Saturation of CAL ADC.
+  /// We deliberately choose a value slightly lower than 2**12 - 1 = 4096, 
+  static const float CAL_ADC_SATURATION = 4060;
   
 
 }; // namespace CalUtil
