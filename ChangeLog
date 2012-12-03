@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lbaldini  Mon Dec  3 11:51:04 PST 2012
+CalUtil/src
+
+Modified Files:
+	CalDirFittingTool.cxx 
+Log Message:
+Full fit implemented.
+    *
+------------------------------------------------------------
 User: lbaldini  Sun Dec  2 13:51:23 PST 2012
 CalUtil/src
 
