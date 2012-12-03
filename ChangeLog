@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lbaldini  Mon Dec  3 12:15:36 PST 2012
+CalUtil/CalUtil
+
+Modified Files:
+	ICalDirFittingTool.h 
+Log Message:
+Full fit implemented.
+    *
+------------------------------------------------------------
 User: lbaldini  Mon Dec  3 11:56:47 PST 2012
 CalUtil/doc
 
