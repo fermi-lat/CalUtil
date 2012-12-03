@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.57 2012/10/03 16:35:15 heather Exp $	
+ $Id: release.notes,v 1.58 2012/11/27 14:17:01 lbaldini Exp $	
  * Package CalUtil
  * EOH *
 
+  Added the new CalDirFittingTool.
   Added static const float CAL_ADC_SATURATION.
  CalUtil-03-17-00 03-Oct-2012 heather Add unbiasing maps for EvtEnergyCorr (separating front/back)
  CalUtil-03-16-00 02-Oct-2012 heather identical to 03-15-01, just reapplying
