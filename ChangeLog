@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: lbaldini  Wed Dec  5 10:22:55 PST 2012
+CalUtil/src
+
+Modified Files:
+	CalTrSizeTool.cxx 
+Log Message:
+First fully functional implementation.
+    *
+------------------------------------------------------------
 User: lbaldini  Wed Dec  5 06:26:28 PST 2012
 CalUtil/src
 
