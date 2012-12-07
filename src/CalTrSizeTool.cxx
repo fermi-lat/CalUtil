@@ -6,7 +6,7 @@
  *
  * @author Luca Baldini (luca.baldini@pi.infn.it)
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalTrSizeTool.cxx,v 1.3 2012/12/05 18:22:55 lbaldini Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/CalUtil/src/CalTrSizeTool.cxx,v 1.4 2012/12/05 20:11:02 lbaldini Exp $
  */
 
 #include "GaudiKernel/AlgTool.h"
@@ -294,9 +294,12 @@ StatusCode CalTrSizeTool::compute(const Point& origin, const Vector& direction,
                                   bool transverse)
 {
   m_cumulativeTrSize.clear();
+  // Do we have at least a xtal?
+  if (m_trSizeData.size() == 0) return StatusCode::FAILURE;
+  // Do we have a valid direction?
+  if (direction.mag() == 0) return StatusCode::FAILURE;
   double runningEnergy = 0.;
   double runningTrSize = 0.;
-  if (m_trSizeData.size() == 0) return StatusCode::FAILURE;
   // Set the reference axis for the underlying CalTrSize data obejcts.
   for (std::vector<CalTrSizeData>::iterator xtal = m_trSizeData.begin();
        xtal != m_trSizeData.end(); xtal++) {
@@ -307,7 +310,6 @@ StatusCode CalTrSizeTool::compute(const Point& origin, const Vector& direction,
   // Loop again to build the integral curve.
   for (std::vector<CalTrSizeData>::const_iterator xtal = m_trSizeData.begin();
        xtal != m_trSizeData.end(); xtal++) {
-    //std::cout << *xtal << std::endl;
     double energy = (*xtal).getEnergy();
     double dist = (*xtal).getDistToRefAxis();
     runningEnergy += energy;
