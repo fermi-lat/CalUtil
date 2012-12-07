@@ -1,10 +1,11 @@
 /** @file release.notes
 
 @verbatim
- $Id: release.notes,v 1.60 2012/12/05 12:51:24 lbaldini Exp $	
+ $Id: release.notes,v 1.61 2012/12/06 14:56:54 heather Exp $	
  * Package CalUtil
  * EOH *
 
+  Protection added in CalTrSizeTool.compute()
  CalUtil-03-18-00 bruel
   Added the new CalTrSizeTool.
   Added the new CalDirFittingTool.
