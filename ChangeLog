@@ -1,5 +1,42 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-20-08-14, operation: add
+Package: CalUtil
+User: heather  Thu May 23 08:02:04 2013
+Files:
+  CalUtil/.cvsignore  1.4
+  CalUtil/ChangeLog  1.515
+  CalUtil/SConscript  1.26
+  CalUtil/CalUtilLib.py  1.6
+  CalUtil/CalUtil/IUBinterpolateTool.h  1.1
+  CalUtil/CalUtil/CalConfig.h  1.2
+  CalUtil/CalUtil/CalArray.h  1.6
+  CalUtil/CalUtil/CalDiagnosticWord.h  1.2
+  CalUtil/CalUtil/CalDefs.h  1.30
+  CalUtil/CalUtil/ICalClusterHitTool.h  1.1
+  CalUtil/CalUtil/CalGeom.h  1.4
+  CalUtil/CalUtil/bit_util.h  1.3
+  CalUtil/CalUtil/CalVec.h  1.10
+  CalUtil/CalUtil/ICalTrSizeTool.h  1.3
+  CalUtil/CalUtil/stl_util.h  1.3
+  CalUtil/CalUtil/ICalDirFittingTool.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/IdealCalCalib.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalMPD.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/ADC2NRG.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalPed.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CalAsym.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/TholdCI.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/NeighborXtalk.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/SplineUtil.h  1.2
+  CalUtil/CalUtil/SimpleCalCalib/CalDAC.h  1.1
+  CalUtil/CalUtil/SimpleCalCalib/CIDAC2ADC.h  1.4
+  CalUtil/cmt/.cvsignore  1.2
+  CalUtil/cmt/requirements  1.36
+  CalUtil/doc/release.notes  1.61
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-lp44, operation: add
 Package: CalUtil
 User: heather  Tue May 21 15:46:20 2013
